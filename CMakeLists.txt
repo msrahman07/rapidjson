@@ -29,8 +29,6 @@ endif()
 # Build all binaries in a separate directory
 SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-option(LIBFUZZER_ASSIGNMENT "Assignment 4 libFuzzer" ON)
-
 option(RAPIDJSON_BUILD_DOC "Build rapidjson documentation." ON)
 option(RAPIDJSON_BUILD_EXAMPLES "Build rapidjson examples." ON)
 option(RAPIDJSON_BUILD_TESTS "Build rapidjson perftests and unittests." ON)
@@ -158,28 +156,6 @@ if(RAPIDJSON_BUILD_TESTS)
     endif(MSVC11)
     add_subdirectory(test)
     include(CTest)
-endif()
-
-# Assignment 4 libFuzzer custom build code
-if(LIBFUZZER_ASSIGNMENT)
-	add_subdirectory(fuzzing)
-endif(LIBFUZZER_ASSIGNMENT)
-
-if(FALSE)
-cmake_minimum_required (VERSION 3.11)
-set(CMAKE_C_COMPILER clang)
-set(CMAKE_CXX_COMPILER clang)
-project (Tutorial)
-
-
-add_executable(Tutorial test_fuzzer.cc)
-target_compile_options(Tutorial
-            PRIVATE $<$<C_COMPILER_ID:Clang>:-g -O1 -fsanitize=fuzzer>
-            )
-
-target_link_libraries(Tutorial
-            PRIVATE $<$<C_COMPILER_ID:Clang>:-fsanitize=fuzzer>
-            )
 endif()
 
 # pkg-config

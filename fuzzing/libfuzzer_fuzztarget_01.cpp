@@ -1,6 +1,8 @@
 #include <stdint.h>
 #include <stddef.h>
-#include "rapidjson/rapidjson.h"
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
 
 bool FuzzMe(const uint8_t *Data, size_t DataSize) {
   return DataSize >= 3 &&
@@ -17,7 +19,9 @@ extern "C" int LLVMFuzzerTestOneInput(const uint8_t *Data, size_t Size) {
 
 /*
 
-#include "rapidjson/rapidjson.h"
+#include "rapidjson/document.h"
+#include "rapidjson/writer.h"
+#include "rapidjson/stringbuffer.h"
 
 
 // fuzz_target.cc
