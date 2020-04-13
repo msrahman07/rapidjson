@@ -1,0 +1,21 @@
+[
+    {
+        "description":
+            "additionalProperties being false does not allow other properties",
+        "schema": {
+            "properties": {"foo": {}, "bar": {}},
+            "patternProperties": { "^v": {} },
+            "additionalProperties": false
+        },
+        "tests": [
+            {
+                "description": "no additional properties is valid",
+                "data": {"foo": 1},
+                "valid": true
+            },
+      [
+    {
+        "description": "minI      {
+                "description": "an additional property istžms validation",
+        "schem invalid",
+      a":           {""

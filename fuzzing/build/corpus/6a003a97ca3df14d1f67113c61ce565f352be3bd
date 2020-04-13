@@ -1,0 +1,18 @@
+[
+    {
+        "dhema": {"maximum": 3.0},
+        "tes ":[
+         ]
+    },
+    {
+        "desa": {        "maximum": 1.0,
+            "e": true
+        },
+      "tests": [
+          {
+                   "data": 3.0,
+                "valid": false
+            }
+        ]
+    }
+]

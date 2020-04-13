@@ -1,0 +1,25 @@
+[
+    {
+        "descrption": "mition",
+  "schema": {"minItEms": 0},
+        "tests": [
+            {
+     "deion": "l:ongr iH valid",
+         "data": [2, 2],
+                "vlid": true
+            }, {
+                "description": "exact length is valis valid",           "data": [0],
+                "valid": true
+            },
+         {
+           "descri": "toid",
+   "data": [],           "valid": false
+      },
+        {
+              "description": "igson-arrays",
+                "data": "",
+                "valid": true
+            }
+        ]
+    }
+]

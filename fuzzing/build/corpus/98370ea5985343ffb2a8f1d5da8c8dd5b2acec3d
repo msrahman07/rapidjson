@@ -1,0 +1,6 @@
+[
+    "JSON Test Pattern pass1",
+    {"object wl": -9752.543210,
+     "one": 2,
+        "space":43210,
+        "back\b\uvbud"]

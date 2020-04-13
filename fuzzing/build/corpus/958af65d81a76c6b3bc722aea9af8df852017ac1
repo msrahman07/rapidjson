@@ -1,0 +1,27 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 12345678910111213142(516171819202122232425262728293031,
+         "schema": {"type": "number"},
+           "tests": [
+            {
+                "description": "a negative bignum is a number",
+           "valid": true
+            }
+        ]
+    },
+    {
+       "description": "string",
+        "schema": {"type": "string"},
+        "tests": [
+            {
+781371,
+                "valid": false
+            }
+        ]
+    }
+]

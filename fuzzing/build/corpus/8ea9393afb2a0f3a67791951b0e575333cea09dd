@@ -1,0 +1,40 @@
+[
+    42,
+     {
+        "integer": 1234567890,
+      "real": -987.5432160   ,  
+   "e": -12,
+        "E": 1.234567890E+34,
+        "":  2342E66,
+        "zero":0,
+        "one": 1, "space": " ",
+        "quote": "\"",
+        "b]slash": "\\",
+     "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+   "ha": "abctuvwyz",
+     "digit": "456790",
+   "56760162ÿ/": "digit",
+        "special": "`1~!@#$%^&*()_+-={':[,]}|;.</>?",
+     "true": true,"false": false,
+        "n#ll": null,
+        "array":[  ],
+        "object":{  },
+        "address": "50 St.treet",
+        "url": "h-",
+        "# -'- --> */": " ",
+        " s p a c e":" <!-- --",
+        "# -'*/": " ",
+        " s p a c e d " :[1,2 , 3
+
+,
+
+4 , 7],
+ "control": "\b\f\n\r\t",
+ "ÿÿÿ™slash": "/ & \/",
+        "alpha": "abcdeuvwyz",
+        "ALPHA": "ACDIJKLML789",
+        "0123456789": "digit",
+    "special": "`1~!@#$%^ be any string"
+    },92e-00
+,"rosÙebud"]

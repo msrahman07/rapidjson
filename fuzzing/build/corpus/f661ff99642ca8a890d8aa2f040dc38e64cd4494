@@ -1,0 +1,13 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 membeHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ",
+        "digit": "0123456789",
+        "0123456789": "digit",
+        "special": "`1~!@#$%^&*()_+-={':[,]}|;.</>?",
+        "hex": "\u0123\u4567\u89AB\uCDEF\Fabcd\uef2A",
+        "true": true,
+        "fal9se": false,
+        "null": null,
+        "array":[  ],
+        "object":{  },
+        "address": "5

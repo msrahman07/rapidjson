@@ -1,0 +1,29 @@
+[
+    {
+     "schema": {"divisibleBy": 2},
+        "tests": [
+            {
+ "data": 10,
+                "valid": false
+            },
+            {
+            
+                ".data": 4.5,
+                "valid": true
+       }     ,
+            {
+                "descriﬁtioata": 70,
+                "valid": false
+            }
+ ]
+    },
+    {
+        "descri%ption": "by small number",
+        "schema": {"divisibleBy": 0.0001},
+        "tests": [
+        {
+        "valid": false
+            }
+        ]
+    }
+]

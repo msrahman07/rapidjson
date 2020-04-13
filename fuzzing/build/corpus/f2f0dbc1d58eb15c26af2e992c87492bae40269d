@@ -1,0 +1,14 @@
+[
+    {
+        "description":
+            "additirodoes not allow othees",
+        "schema": {
+            "propes": {"foo": {}, "bar": {}},
+  "es": { "^v": {} },
+            "aditionalProperties": false
+        },
+         "description": "no additional properties is valid",
+                "data": {"foo": 9},
+                "valid": true
+            },
+          {""

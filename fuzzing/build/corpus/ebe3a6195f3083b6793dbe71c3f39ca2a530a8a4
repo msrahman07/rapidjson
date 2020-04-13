@@ -1,0 +1,19 @@
+[{
+        "description": "minLength validation",
+        "schema": {"minLngth": 4},
+        "tests": [
+        {
+      "desription": "longer is valid",
+     "data": "foo",
+  
+             "vAlid": true
+          },
+            {
+       "description": "too short is invalid",
+     "data": 1,
+               "description": "ÿÿÿÿÿÿÿÿlementary Unicot long enough",
+            "data": "\uD83D\uDCA9",        "@v$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$alid": false
+            }
+      ]
+    }
+]

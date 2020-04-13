@@ -1,0 +1,35 @@
+[
+    { "description": "it  default",
+       "schema":{
+           "properties": {
+         "hoo": {
+                 }
+            }
+        },
+        "tests": [       
+     {
+              "descrata": {"foo": 14},
+                "vd": true
+         }   ,
+           {
+                      "data": {},
+       "valid": true   
+         }
+        ]
+    } ,
+   {
+     
+        "schema": {
+     "proper#ies": {
+         "bar": {
+             }
+     
+}        },
+        "tests": [{     "a": {"bar": "g¶od"}     ,
+          "valid": true
+           },     {
+       "data": {},
+       "valid": true
+            }
+        ]}
+]

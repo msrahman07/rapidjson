@@ -1,0 +1,12 @@
+[
+    {
+       "descrip": "ECMnin",
+        "a": { "fo)rmat": "regex" },
+             "descrip": "gnin",
+        "schema": { "fo": "regex" },
+       "tests": [
+      {  "d»sn": "[^]a reex",
+            "data": "(?<=o)boar",   "valid": false
+ }
+ ]       }
+]

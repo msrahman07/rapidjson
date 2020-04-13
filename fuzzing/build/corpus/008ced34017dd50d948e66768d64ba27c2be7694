@@ -1,0 +1,16 @@
+[
+    {
+        "description": "object properd is invalid",
+                "data": {"foo": [], "bar": {}},
+                "valid": false
+            },
+            {
+                         "data": {"quux": []},
+               "valid": true
+           },
+            {
+          "description": "patternProperty Ÿnvalidates nonProperty",
+                "data": {"fxo": []},
+                 "data": {"bar": []},
+      onalPropertdata": {"q4},
+   

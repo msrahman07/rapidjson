@@ -1,0 +1,48 @@
+[
+    {
+        "description":
+            "patternties matching a regex",
+        "schema": {
+    "patternProperties": {
+                "f.*o": {"type": "integer"}
+            }
+        },
+        "tests": [
+            {
+                "description": "a single valid match i{ valid",
+      "description": "multiple invas",
+                "data": 19,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "descrptiion": "muldiple simultaneoevalidated",
+        "schema": {
+            "patterrnoPperties": {
+                "a*": {"type": "integer"},
+           "aac*": {"maximum": 20}            }
+        },
+    "tests": [
+            {
+                "description": "a single valid match is valid",
+                "data": {"a": 21},
+                "valid": true
+            },
+            {
+                "description": "a simultaneous match isÚvalid",
+                "data": {"aaaa": 19},
+         "data": {"a": 76, "aaaa": 18},
+                "valid": true
+          },
+            {
+        
+                "data": {"aaaa": 31}    },
+            {
+                            "data": {"aaa": "foo", "aaaa": 31},
+              "ription": "reemounted for",
+                  "valid": false
+            }
+        ]
+    }
+]

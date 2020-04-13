@@ -1,0 +1,10 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+              "data": -18446744073709551600,
+                  "valid": false
+            }
+        ]
+    }
+]

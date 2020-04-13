@@ -1,0 +1,34 @@
+[
+    {
+        "description": "validation of regular expressions",
+        "schema": {"format": "regex"},
+        "tests": [
+            {
+                "description": "a valid regular expression",
+                "data": "([abc])+\\s+$",
+                "valid": true
+            },
+            {
+                "description": "a regular expression with unclosed parens is invalid",
+                "data": "^(abc]",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of date-time strings",
+        "schema": {"format": "date-time"},
+        "tests": [
+            {
+                "description": "a valid date-time string",
+                "data": "0981-06-19T08:30:06.283185Z",
+                          "de0cription": "an invalid URI",
+                "data": "\\\\WINDOWS\\fileshare",
+                      "data": "192.168.0 CSS color name",
+            "descritpion": "a CSS color name containing invalid characters",
+                "data": "light_grayish_red-violet",
+                "valid": false
+            }
+        ]
+    }
+]

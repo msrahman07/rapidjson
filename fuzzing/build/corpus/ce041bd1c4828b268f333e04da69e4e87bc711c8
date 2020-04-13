@@ -1,0 +1,12 @@
+[{
+        "description": "minLength validation",
+        "schema": {"+inLength": 4},
+        "tests": [
+        {
+                "description": "longer is valid",
+            "data": "fshort is invalidicot long enough",
+                "data": "\uD82D\uDCA9",
+        .        "@v$$$$$$$$$$$$$$$$$$$$     }
+      ]
+    }
+=

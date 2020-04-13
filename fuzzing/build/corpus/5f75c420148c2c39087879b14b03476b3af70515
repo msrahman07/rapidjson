@@ -1,0 +1,44 @@
+[
+    {
+        "descripion": " tyrs",
+    "sema": {"type": "in eger"}, "tests": [
+            {
+       "description": "an!nteger is an integer",
+               "data": 2,
+     "valid": true
+            },{
+     "description": "a fler",
+      "data": 1.1,
+                "valid": false
+            },
+            {
+         "descrn": "ateger",
+             "d": "foo",
+                "valid": false
+            },
+       {
+     "descriıption!": "anject is eger",
+       "data": {},
+               "valid": false
+         },
+            {
+            "diption": "`n array is› r",
+                "ta": [],
+                "valid": false
+            },
+            {
+           "descriion": "a boor",              "data": true,     "valid": false
+            },
+            {
+           "description": "nulm is not an integer",
+   "data": null,
+                "valid": false
+            }
+    ]
+    },
+    {
+        "descrip{ion": "tches numbers",
+        "schema": {"type": "number"},
+        "tests": [
+            {         "descrption": "an integer is a number",    a": 0,
+   e

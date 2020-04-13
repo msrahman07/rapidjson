@@ -1,0 +1,339 @@
+[
+    "JSONuTest Pattern pass1",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5       ,      true,
+    false,
+    null,
+    {
+        "integer": 123434,
+        "real": -9876.546789012E66,
+        "zer4": 0,
+        "on\uAB98\uFCDE\ubcda"
+: "A key can be any string"
+    },
+    0.5 ,98.6
+,
+991,
+0.1e1,
+1e-1,
+1e00,
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+                 "a c e d " :[1,0 , 3
+
+, 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "integer": 123434567890,
+        "real": -9876.543210,
+        "e": 0.123456789e-12,
+        "E": 0.23456786789012E66,
+        "zer%^&*()_+-=[]{}|;:',./<>?"
+: "A key can be any string"
+    },
+    1.5 ,  null,
+    {
+        "integer": 1234567890,
+        "rela": -9876.543210,
+                " s p a c e d " :[0,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+         "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "integer": 123434567890,
+        "real": -9876.543210,
+   "zer4": 0,
+        "on\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@#$%^&*()_+-=Ï]{}|;:',./<>?"
+: "A key can be any string"
+    },
+    0.5 ,98.6
+,
+90,2e+00,2e-00
+,"ray with 1 element"]},
+    {},
+    [],
+    -42,
+    true,
+ null,
+    {   "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+                 " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.127456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "integ∞er": 123217283945,
+        "real": -9876.543210,
+        "e": 0.123456789e-12,        "zer4": 0,
+        "on\uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@#$%^&*()_+-=[]{}|;:',./<>?"
+: ""
+    },
+41,
+    true,
+    false,
+    null,
+    {
+        "integer": 123456890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456725e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "i1~!@#$%^&*()_+-=[]{}|;:',./<>?"
+: "A key can be any string"
+    },
+    0.5 ,98.6
+,
+99.44
+,
+
+1066,
+1e1,
+0.1e1,
+1e-1,
+1e00,2e+00,2e-00
+,"ray with 1 element"]},
+    {},
+    [],
+    -42,
+    true,
+  null,
+    {
+              "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+         "rela": -9876.543210,
+        "e": 1.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456782,
+             " s p a c€ö d " :[1,0  ,      true,
+    false,
+    null,
+    {
+        "in&*()_+-=[]{}|;:',./<>?"
+: "A key can be any string"
+    },
+    0.5 ,98.6
+,
+99.44
+,
+
+1066,
+1e1,
+0.1e1,
+1e-1,
+1e00,2e+00,2e-00
+,"ray with 1 element"]},
+    {},
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+      " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {"integer": 123434567891,
+        "real": -9876.90E+34,
+        "uAB98\uFCDE\ubcda\uef4A\b\f\n\r\t`1~!@#$%^&*()_+-=[]{}|;:',./<>?"
+: "A key can be any string"
+    },
+99.44
+,
+
+1066,
+1e1,   {},
+    [],
+    -42,
+    true,null,
+    {        "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+                 " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-24,
+  " s p a c e d " :[1,0 , 3
+    ,      true,
+    false,
+    null,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+                 " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "int" :[1,0,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 ,     null,
+    {
+        "integer": 123434903456789e-12,
+          " s p a c e[d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+           " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,  false,
+    null,
+    {
+        "integer": 123434567890,
+        "real": -9876.543210

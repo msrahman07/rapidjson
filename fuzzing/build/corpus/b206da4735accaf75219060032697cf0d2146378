@@ -1,0 +1,16 @@
+[
+    {
+       "tests": [
+            {
+               "ip": {"qaaa": 19},"data": {"a": 76, "aaaa":42},  "valid": true
+        },
+            {
+                "descrip": {"qaaa": 19},"data": {"a": 76, "aaaa": 18},
+               "data": {"aaaa": 31}    },
+            {
+                  "data": {"aaa": "foo", "aaaa": 31},
+       
+     "valid": false
+    }
+        ]    }
+]

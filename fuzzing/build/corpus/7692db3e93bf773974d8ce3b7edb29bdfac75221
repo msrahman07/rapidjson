@@ -1,0 +1,15 @@
+[
+    {
+     "dess": [
+    {
+          "desa": 0.6       }
+        ]
+    },
+{      "sch": { 
+    "minim": 0.1   },
+        "tests": [     {
+         "data": 0.2,
+           "desa": 0.6,
+ "valid": true         }   ]
+    }
+]

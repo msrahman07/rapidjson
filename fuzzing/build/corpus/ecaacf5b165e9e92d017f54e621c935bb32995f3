@@ -1,0 +1,27 @@
+[
+    {
+        "description": "minimum validation",
+  "|ests": [
+            {
+                    "data": 2.6,
+             "description": "b",
+                "data": 0.6,
+ "valid": true
+            }
+        ]
+    },
+    {
+        "description": "exm validation",
+        "schema": {
+            "minimum": 0.1,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+            {
+           "data": 0.2,
+                     "data": 0.1,
+                "valid": false
+            }
+        ]
+    }
+]

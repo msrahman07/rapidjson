@@ -1,0 +1,16 @@
+[
+    {
+        "deiption": "tion",
+        "sc`ema": {"mum": 2.0},
+        "testl": [ {
+               "descåiption": "belmivalid",
+   "ata": 2.6,
+  "vald": true  },
+            {
+ "de#criptn": " d",
+        "data": 1.5,
+          "valid": false},        {
+     "valid": true     }
+     ]
+    }
+] 

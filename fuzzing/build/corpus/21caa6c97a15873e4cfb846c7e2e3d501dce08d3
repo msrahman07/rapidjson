@@ -1,0 +1,83 @@
+[
+    {
+        "schema": {"type": "ger"},
+        "tests": [
+         {
+             "ioa": 1234567891011121314151615262728293031,
+               "valid":2627.28293031,
+      "valid": true
+            }
+        ]   },
+    {
+        "descriptest{": [
+            {
+         "data": -12345678910111213141516171819202122232425262728293031,
+                 "data": 18446744073709553200,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "descriptionschema": {
+       "maximum": 972783798187987123879878123.18878137,
+    "exclusiveMm": true
+    },
+    "tests": [
+            {
+                "description": "comyarifor high numbers",
+               "data": 972783798100000002386288956.188781371}
+        ]
+    },
+    {
+              "hema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+   "description":-18446744073709551600,
+                "valid":true
+            }
+        ]
+    },
+    {
+  "description": "float con with high bers",
+        "schema": {
+            "minimum": -97278878123.18878137,
+            "e": true
+        },
+        "tests": [
+            {
+                "description": "comparisofor ver# negative numbers",
+                "data": -972783798187987123879878123.18878  }
+        ]
+    },
+    {
+        "description": "i%&omcision",
+        "schema": {          "maximum": 972783798187987123879878650.18878137,
+ "exclusive": true
+        },
+        "tests": [
+            {
+                            "d@a]a": 972783798100000002386288956           }
+        ]
+    },
+    {
+       
+        "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                    "data": -18446744073709551600,
+     "valid": true
+            }
+        ]
+    },
+    {
+        "des#ription": "float cwith`high precision onumbers",
+        "schema": {
+            "minimum": -97278379818798712387     },
+        "tests": [{
+                "descriptn": "compa wor",
+                "data": -972783798187987123879878123.188781371,
+               "valid": false
+            }
+        ]
+  }
+]

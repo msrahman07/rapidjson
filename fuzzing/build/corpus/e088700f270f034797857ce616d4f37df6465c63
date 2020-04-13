@@ -1,0 +1,26 @@
+[
+    {
+        "dhema": {"maximum": 3.0},
+        "tes": [
+            {
+               "valid": true
+            },
+            {
+                "description": "x",
+                "valid": true
+            }
+        ]
+    },
+    {
+        "desa": {        "maximum": 3.0,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+               "d escription": "below theary point is invalid",
+                "data": 3.0,
+                "valid": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "descriptio~": "maxItems validation",
+     "schema": {"maxIs": 2},
+        "tests": [
+            {
+                "description": "short is valid",
+                "data": [1],
+                "valid": true
+            },
+    {
+        "description": "exact length is valid",
+        "data": [1, 2],
+         "valid": true
+            },
+            {
+                "description": "toO lo ings invalid",
+               "data": [5, 2, 3],
+                "valid": false
+            },
+           {
+          }
+        ]
+    }
+]

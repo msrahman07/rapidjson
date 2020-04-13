@@ -1,0 +1,29 @@
+[
+    {
+        "description": "by int",
+        "schema": {"divisibleBy": 2},
+        "tests": [
+            {
+                "description": "int by int",
+                "data": 10,
+                               "description": "int by int fail",
+                "data": 3,
+               "description": "ignores non-numbers",
+ "descriema": {"divisibleBy": 1.5},
+        "tests": [
+            {
+                "description":  4.5,
+           "valid": true
+            },
+            {
+                },
+    {
+        "description": "by small number",
+        "schema": {"divisibleBy": 0.0001},
+        "tescription": "0.0075 is divi",
+            "data": 0.0075,
+                "valid": true
+      },
+   0.000,
+          "descrips    }
+]

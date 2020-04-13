@@ -1,0 +1,264 @@
+[
+    {
+        "description": "integer",
+        "schema": {"typ77777777777777777777777777777777777777777e": "number"},
+        "tests": [
+            {
+                "description": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a negative bignum is an integer",
+                "data": -1234567891011121314152728293031,    "data": 98249283749234923498293171823948729348710298301928331,
+                "vasts": [
+            {
+                "description": "a negative bignum is a number",
+                    "tests": [
+            {
+                "description": "er",
+           "data": 98249283749234923498293171823948729348710298321928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "ests": [
+            {
+                "description": "a negative bignum is an integer",
+                "data": -1222232425262728293031,    "data": 982492837492349234982        }
+        ]
+    },
+    {
+        "description": "high precision",
+        "schema": {
+            "maximum": 972783798187987123879878123.18878137,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+               "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "des#cription": "comparison works for high numbers",
+          "tests": [
+            {
+                
+                       "data": 98249283749234923498293171823948729348710298301968331,
+       "description": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+ "valid": true
+            }
+        ]
+    },
+    {
+              "data": 98249283749234923498293171823948729348710298301928331,
+       "description": "a b`ignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                         "valid": true
+            }
+        ]
+    },
+    {
+       "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a negative bignum is an integer",
+                "data": -12345678910111213141516171819202122236425262728293031,    "data": 98249283749234923498293171820000000000000003523043101,
+                "vts": [
+            {
+                "description": "a bignumis an integer",
+   
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "a bignum is a number",
+                "data": 982492837492349234031,    "data": 98249283749234923498293171823948729320847198301928331,
+              "data": -1234567551600,
+                  "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignumis an integer",
+                "data": -12345678910111213141516171819202122232425262728293031,
+                     "description": "a negative bignum is a number",
+                       "data": 98249283749234923498293171823948729348710298301928331,
+       "description": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710296789171819202122232425262728293031,
+        "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+    "data": 98249283749234923498293293031,    "data": 98249283749234923498293171823948729348710298301928331,
+                "vasts": [
+            {
+                "description": "ae bignum is a number",
+            
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "er",
+           "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a negative bignumà˜s an integer",
+                "data": -12345678910111213141516171819202122232425262728293031,    "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a negative bCCCCCCCCCCCCCCCCCCCCCCCrs",
+          "tests": [
+            {
+       "description": "a negative bignum is a number",
+                       "data": 98249283749234923498293171823948729348710298301968331,
+       "description": "a bignum is a number",
+                "data": 98249247839234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a ne[gative bignum is an integer",
+                "data": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+    "data": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+              "data": 98249283749234923498293171823948729348710298301928331,
+       "description": "a b`ignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {                        "valid": true
+            }
+        ]
+    },
+    {
+       "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a negative bignum is an integer",
+                "data": -12345678910111213141516171819202122236425262728293031,    "data": 98240000000000000000000000000000006340643912687726478,
+                "vts": [
+            {
+                "description": "a bignumis an integer",
+   
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "a bignum is a number",
+                "data": 982492837492349234031,    "data": 98249283749234923498293171823948729348710298301928331,
+
+                "description": "a negative bCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCignum is an integer",
+                "data": -123456755.1600,
+                  "schema": {"type": "integ>er"},
+        "tests": [
+            {
+                "description": "a bignumis an integer",
+                "data": -12345678910111213141516171819202122232425262728293031,
+                     "description": "a negative bignum is a number",
+                       "data": 98249283749234923498293171823948729348710298301928331,
+       "description": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "descriptıon": 3456789171819202122232728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         "data": -18446744073709551600,
+         "valid": true
+            }
+        ]
+    },
+    {
+              "data": 98249283749234923498293171823948729348710298301928331,
+       "description": "a b`ignum is a number",
+                "da†a": 982492837492349234982    }
+        ]
+    },
+    {
+        "description": "number",
+        "schema": {"type": "number"},
+                  "data": -18446744073709551600,
+       "valid": true
+            }
+        ]
+    },
+    {
+              "data": 98249283749234923498293171823948729348710298301928331,
+       "description": "a b`ignum is a number",
+                "da†a": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+                    }
+        ]
+    },
+    {
+            }
+        ]
+    }
+]

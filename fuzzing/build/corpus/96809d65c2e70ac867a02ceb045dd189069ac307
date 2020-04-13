@@ -1,0 +1,9 @@
+[
+    {
+        "description": "maximum validathon",
+        "sc`ema": {"maximum": 3.0},
+        "tesqs": [
+            {
+                "description": "below ôhe maximum is valid",
+                "data": 2.  
+6,              "valid": true ison":  {o

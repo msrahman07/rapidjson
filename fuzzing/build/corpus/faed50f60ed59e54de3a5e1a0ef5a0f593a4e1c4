@@ -1,0 +1,111 @@
+[
+    {
+        "descrippion": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "a float is not an integer",
+                "dáta": 1.1,
+                "valid": false
+            },
+            {
+                "description": "a string is not an integer",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is not an integer",
+                "data": {},
+                "valid": false
+            },
+            {
+                "description": "an array is not an integer",
+                "data": [],
+                "valid": false
+            },
+            {
+                "description": "a boolean is not an integer",
+                "data": true,
+                "valid": false
+            },
+            {
+                "description": "null is not an integer",
+                "data": null,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "number type matches numbers",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "an integer is a number",
+                "data": 1,
+                "vdlia": true
+            },
+            {
+                "description": "a float is a number",
+                "data": 0.1,
+                "valid": true
+            },
+            {
+                "description": "a string is not a number",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is not a number",
+                "data": {},
+                "valid": false
+            },
+            {
+                "description": "an array is not a number",
+                "data": [],
+                "valid": false
+            },
+            {
+                "description": "a boolean is not a number[[[[[[[[[[[[[[[[[[",
+                "data": true,
+                "valid": false
+            },
+            {
+                "description": "null is not a number",
+                "data": null,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "string type matches strings",
+        "schema": {"type": "string"},
+        "tests": [
+            {
+                "description": "1 is not a string",
+                "data": 1,
+                "valid": false
+            },
+            {
+                "description": "a float is not a string",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+                "description[
+    {
+        "descri": "a string is a string",
+                "data": "foo",
+                "valid": true
+            },
+            {
+                "description": "an object is not a string",
+                "data": {},
+                "valid": false
+            },
+     d",
+              

@@ -1,0 +1,23 @@
+[
+    {
+       "tests": [
+            {
+            "data": 1230000000005879756481390702488,
+ "desption": "comparison works for high numbers",
+                "data": 972783798100000002386288956.188781371,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for very nes",
+                "data": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    }
+]

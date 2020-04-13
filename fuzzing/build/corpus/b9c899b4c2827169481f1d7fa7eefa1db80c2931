@@ -1,0 +1,56 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+            "data": 1234567891011121393171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+           "description": "a negative bignum is an integer",
+                "data": -123456789101112131415161718192049234923498293178331,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "string",
+        "schema": {"type": "string"},
+        "tests": [
+            {
+                "description": "a bignum is not a string",
+                "data": 98249283740000000000000000000000005879756481390351244,
+ "desption": "comparison works for high numbers",
+                "data": 972783798100000002386288956.188781371,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for very nes",
+                "data": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with highprecision on negative numbers",
+        "schema": {
+            "minimum": -972783798187987123879878123.18878137,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+         ]
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+             "schema": {
+            "propes": {"foo": {}, "bar": {}},
+  "es": { "^v": {} },
+            "aditionalProperties": false
+        },
+         "description": "no additional properties is valid",
+                "data": {"foo": 9},
+                "lid": true
+            },
+          {""

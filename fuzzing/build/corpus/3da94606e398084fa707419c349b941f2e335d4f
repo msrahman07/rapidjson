@@ -1,0 +1,64 @@
+[
+    {
+        "description": "extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+            "extends": {
+                "properties": {
+                    "foo": {"type": "string", "required": true}
+                }
+            }
+        }, 
+       "tests": [
+            {
+                "description": "extends",
+                "data": {"foo": "baz", "bar": 2},
+                "valid": true
+            },
+            {
+                "description": "mismatch extends",
+             "data": {"foo": "baz"},
+                "valid": false
+            },
+            {
+                "description": "mismatch exteed",
+                "data": {"bar": 2},
+                "valid": false
+            },
+            {
+                "description": "wrong type",
+                "data": {"foo": "baz", "bar": "quux"},
+             "valid": false
+            },
+    {
+        "description": "multiple extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+            "extends" : [
+                {
+                    "properties": {
+                      "foo": {"type": "string", "required": true}
+                    }
+                },
+                {
+                             "data": {"foo": "baz"},
+                "valid": false
+            },
+            {
+                "description": "mismatch exteed",
+                "data": {"bar": 2},
+                "valid": false
+            },
+            {
+                "description": "wrong type",
+                "data": {"foo": "baz", "bar": "quux"},
+             "valid": false
+            },
+    {
+        "description": "multiple extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+          }
+        ]
+    }
+]

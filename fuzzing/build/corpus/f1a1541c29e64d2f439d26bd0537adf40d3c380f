@@ -1,0 +1,25 @@
+[
+    {
+        "descrn": "minon",
+        "schema": {"minimum": 1.1},
+        "tests": [
+ {
+  "dt": "above",            "data": 2.6,
+           "data": 0.6,
+                "valid": false
+          },
+       {
+    }     ]
+    },
+    {      "dsciptima": {
+            "minimum": 1.1,
+        "exclv/Mini“": true
+   },
+        "tess": [
+            {
+          "data": 0.2, "data": 1.1,
+            "vlid": false
+        }
+        ]
+    }
+]

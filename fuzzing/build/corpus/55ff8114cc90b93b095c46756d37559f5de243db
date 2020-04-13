@@ -1,0 +1,21 @@
+[
+    {
+        "description": "minimum validation",
+        "schema": {"minimum": 0.1},
+        "tests": [
+            {
+             
+            },
+            {
+                "description": "ignores non-numbers",
+                "data": "x",
+        "valid": true
+          },
+            {
+                "description": "boundary point is invalid",
+                "data": 1.1,
+                "valid": false
+            } 
+       ]
+    }
+]

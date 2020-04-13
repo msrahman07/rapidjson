@@ -1,0 +1,23 @@
+[
+    {
+        "description": "minimum validation",
+        "schema": {"minimum": 1.1},
+        "tests": [
+            {
+                "description": "above the minimum is valid",
+                "data": 2.6,
+                "valid": true
+            },
+            {
+                  "data": 0.6,
+                "valid": false
+            },
+            {
+                "description": "ignores non-numbers",
+                "data": "x",
+        "ta": 1.1,
+                "valid": false
+            }
+        ]
+    }
+]

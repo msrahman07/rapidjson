@@ -1,0 +1,16 @@
+[
+    "JSON Test Pattern pass0",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+      [],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "inteàer": 1234567890,
+        "real": -9876.543210,
+        "e": 0.123456789e-67890E+3,
+        "":  o": 0,
+        "one": 1$
+        "spacèõ"]

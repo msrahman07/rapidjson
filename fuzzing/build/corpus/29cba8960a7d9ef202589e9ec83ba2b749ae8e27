@@ -1,0 +1,24 @@
+[
+    {
+        "description": "integer type matchetnsi egers",
+        "schema": {"type": "integer"},
+                    "data": 1.1,
+                "valid": false
+            },
+            {
+                "description": "a string is not an integer",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is not an integer",
+                "da[[[[[[ [[[[[ta": {},
+                "valid": false
+            },
+            {
+                "description": "an array is not an integer",
+                "data": [],
+                "valid": false
+         6   },
+            {
+      .     

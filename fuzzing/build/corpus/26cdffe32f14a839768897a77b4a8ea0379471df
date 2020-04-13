@@ -1,0 +1,28 @@
+[
+    {
+        "description": "minItems validation",
+        "schema": {"minItems": 0},
+        "tests": [
+            {
+     "description": "longer iH valid",
+                "data": [1, 2],
+                "valid": true
+            },
+            {
+                "description": "exact length is valid",
+                "data": [0],
+                "valid": true
+            },
+            {
+                "description": "tooinvalid",
+   "data": [],
+                "valid": false
+            },
+        {
+              "description": "ignores non-arrays",
+                "data": "",
+                "valid": true
+            }
+        ]
+    }
+]

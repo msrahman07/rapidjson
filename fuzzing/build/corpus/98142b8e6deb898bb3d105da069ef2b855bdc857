@@ -1,0 +1,21 @@
+[
+    {
+        "hema": {"minimum": 1.1},
+        "tests": [
+            {
+                "deslid": true
+            },
+            {
+              "description": "b elwothum is invalid",
+                "data": 0.6,
+                "valid": false
+            },
+            {
+                "description": "ignores   n-numbers",
+     "data": 1.2,
+             "data": 1.1,
+                "valid": false
+            }
+        ]
+    }
+]

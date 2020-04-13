@@ -1,0 +1,10 @@
+[
+    "JSON Test Pattern pass1",
+      [],
+    -43,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "re^l": -9876.Ø     on"

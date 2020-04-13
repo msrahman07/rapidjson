@@ -1,0 +1,11 @@
+[
+    {
+     "tests": [
+            {
+           "descriipton": "a v+\\s+$",
+        "data": "\\\\WINDOWS\\ileshrgaayid-violet",
+                "valid": false
+            }
+        ]
+    }
+]

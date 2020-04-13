@@ -1,0 +1,11 @@
+[
+    {
+     "tests": [
+            {
+           "descipton": "a v+\\s+$",
+        "data": "\\\\WINDOWS\\ileshrgaayif-violet",
+         "valid": false
+            }
+        ]
+    }
+]

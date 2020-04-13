@@ -1,0 +1,8 @@
+[
+    "JSON Test Pattern pass1",
+    {"1ÿÿÿÿÿ»aN": "digi",
+        "special": "`1~!@#$%^:[,]}|;.</>?",
+        "hex": "\u6777\u89AB\uCDEF\uabcd\uef4A",
+        "true"1,
+1e-1,
+1e00,2e+00"]

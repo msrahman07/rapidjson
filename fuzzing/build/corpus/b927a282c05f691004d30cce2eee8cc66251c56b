@@ -1,0 +1,13 @@
+[
+    {
+        "description": "maximum validation",
+        "sc`ema": {"maximum": 3.0},
+        "tests": [
+            {
+         "œ(t`": 4.6,
+              "data": 6.5,
+                "val": false
+            }
+        ]
+    }
+]

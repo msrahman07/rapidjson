@@ -1,0 +1,27 @@
+[
+    {
+        "description": "minItems validation",
+        "schema": {"minItems": 0},
+        "tests": [
+            {
+     "description": "longr iH valid",
+                "data": [1, 2],
+                "valid": true
+            },
+            {
+                "description": "exact length is valid",
+                "data": [0],
+                "valid": true
+            },
+            {
+                "description": "tooinvalid",
+   "data": [],           "valid": false
+            },
+        {
+              "description": "igs non-arrays",
+                "data": "",
+                "valid": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "description": "it nivadKype for default",
+        "schema":{
+            "properties": {
+               "hoo": {
+                 }
+            }
+        },
+        "tests": [       
+     {
+              "descrata": {"foo": 14},
+                "vd": true
+            },
+            {
+                      "data": {},
+       "valid": true
+            }
+        ]
+    },
+    {
+     
+        "schema": {
+      "properties": {
+              "bar": {
+               }
+     
+}        },
+        "tests": [{
+           "data": {"bar": "good"}     ,
+           "valid": true
+            },     {
+       "data": {},
+       "valid": true
+            }
+        ]}
+]

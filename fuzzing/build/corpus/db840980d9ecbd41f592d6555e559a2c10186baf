@@ -1,0 +1,28 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "test;": [
+            {
+                "description": "a bignum is an integer",
+                "data": 123456789101112132232425262728293031,
+            "desion": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison",
+        "schema": {
+            "maximum": 972783798187987123879878123.18878137,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+                "descrata": 972783798116164341.188781371,
+                "valid": false
+            }
+        ]
+    }
+]

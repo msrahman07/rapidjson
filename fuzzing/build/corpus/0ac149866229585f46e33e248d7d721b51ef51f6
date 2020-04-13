@@ -1,0 +1,19 @@
+[
+    {
+        "dhema": {"maximum": 3.0},
+        "tes ":[
+         ]
+    },
+    {
+        "desa": {        "maximum": 1.0,
+            "e": true
+        },
+        "tests": [
+          {
+               "d es0riion": "beloÿ0w theary point isinvalid",
+                "data": 3.0,
+                "valid": false
+            }
+        ]
+    }
+]

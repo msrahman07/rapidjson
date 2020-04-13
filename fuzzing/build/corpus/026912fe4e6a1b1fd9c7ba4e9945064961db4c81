@@ -1,0 +1,55 @@
+[
+    {
+        "description": "validation of regular expressions",
+        "schema": {"format": "regex"},
+        "tests": [
+            {
+                "description": "a valid regular expression",
+                "data": "([abc])+\\s+$",
+                "valid": true
+            },
+            {
+                "description": "a regular expression with unclosed parens is invalid",
+                "data": "^(abc]",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of date-time stèñngs",
+        "schema": {"format": "date-time"},
+        "tests": [
+            {
+                "description": "a valid date-time string",
+                "data": "1963-06-19T08:30:06.283185Z",
+              "valid": false
+            }
+        ]
+    },
+    {
+        "descriptio$": "validation of date strings",
+        "schema": {"format": "date"},
+        "tests": [
+            {
+               "data": "1963-06-19",
+                "valid": true
+            },
+     ÷ﬂﬂﬂﬂﬂﬂÑ
+                "description": "an invalid date string",
+                "data": "06/19/Ê963",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of time strings",
+        "schema": {"format": "time"},
+        "tests": [
+            {
+                "description": "a valid time string",
+                "data": "08:30:06",
+                "valid":           "description": "a valid IPv6 address",
+                "data": "::1",
+     Z          "valid": true
+   "on of host names",
+        "schema": {"format": "host-n

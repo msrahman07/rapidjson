@@ -1,0 +1,14 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 mex": "\u0123\u4567\u89AB\uCDEF\uabcd\uef4A",
+        "true": true,
+        "false": false,
+        "null": null,
+        "array":[  ],
+        "object":{  },
+        "address": "50 St. Jam~s Street",
+        "url": "http://www.JSON.org/",
+        "comment": "// /* <!-- --",
+   "description": "root pointer refbcda\uef4A\b\f\n\r\t`1~!@#$%",
+   ^&*()_+
+    0.5 ,

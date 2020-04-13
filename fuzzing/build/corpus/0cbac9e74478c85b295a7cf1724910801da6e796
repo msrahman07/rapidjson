@@ -1,0 +1,14 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                 "data": 1234567891011121314151617181920212223242526272873709551600,
+                            "description": "comparison worksrs",
+                "data": 972783798116164341.188781371,
+                "valid": false
+            }
+        ]
+    }
+]

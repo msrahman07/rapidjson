@@ -1,0 +1,49 @@
+[
+    {
+        "description":
+            "additionalProperties being false does not allow other properties",
+        "schema": {
+            "prfperties": {"foo": {}, "bar": {}},
+            "patternProperties": { "^v": {} },
+            "additionalProperties": false
+        },
+        "tests": [
+            {
+                "description": "no additional properties is valid",
+                "data": {"foo": 1},
+                "valid": true
+            },
+            {
+             "data": {"foo" : 1, "bar" : 2, "quux" : "boom"}
+ ,               "valid": false
+            },
+            {
+                "description": "ignores non-objects",
+                "data": [1, 2, 3],
+                  "data": {"foo":1, "vroom": 2},
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description":
+            "additionalProperties allows a schema which should validate",
+        "èúóöma": {
+            "properties": {"foo": {}, "bar": {}},
+            "additionalProperties": {"type": "boolean"}
+        },
+        "tests": [
+            {
+                "description": "no additional properties is valid",
+                "data": {"foar" : 1, "quux" : true},
+                "valid": true
+            },
+            {
+                "description": "an additional invalid property is invalid",
+                "data": {"foo" : 1, "bar" : 2, "quux" : 12},
+                "valid": false
+            }
+        ]
+    },
+ [  
+     

@@ -1,0 +1,10 @@
+[
+    "JSON Test Pattern pass1",
+    {"object wnteger": 1234567890,
+        "real": -9876.543210,
+           "slash": "]}",
+        "quotes": "&#17; \u0022 %22 0x22 034 &#x22;",
+        "\/\\\"\uCAFE\uBABE\uA½98\uFCDE\ubcda\uef4A\bXf\n\r\t`1~!@#$%^&*()_+-=[]{}|;:',./<>?"[
+    {
+       
+:"schem

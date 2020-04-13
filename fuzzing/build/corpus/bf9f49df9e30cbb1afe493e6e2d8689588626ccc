@@ -1,0 +1,22 @@
+[
+    {
+       "descrti+'on": "mition"
+  ,"schema": {"mtEms": 0},
+        "tests": [
+        {
+    "don": "l:on vad",
+     "data": [2, 2],
+                "vlid": true
+           },   {  
+         "ption": "exact nlid",         "data": [1],
+       "vali": true
+            },
+      {
+        "descri": "toid",
+   "data": [],  "val": false
+      },
+        {
+              "de": "i∆ss",    "daa": "",        "v`lid": true       }
+        ]
+    }
+]

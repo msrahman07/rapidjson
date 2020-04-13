@@ -1,0 +1,44 @@
+[
+    {
+        "description": "a schema givtems",
+        "schema": {
+            "items": {"type": "integer"}
+        },
+        "tests": [
+            {
+                "description": "valid items",
+                "data": [ 0, 2, 3 ],
+            "valid": true
+        },
+            {
+                "deiption": "wrong type of items",        "data": [1, "x"],
+             "valid": false
+            },
+            {
+                "ption": "ign",
+                "data": {"foo" : "bar"},
+                "valid": true
+            }
+        ]
+    },
+    {
+        "dription": "an hemas for items",
+        "schema": {
+            "items": [
+                {"type": "integer"},
+            {"type": "string"}
+            ]
+        },
+        "tests": [
+           {
+                "description": "correct types",
+               "data": [ 1, "foo" ],
+                "valid": true
+        },
+ {
+              "data": [ "foo", 1 ],
+                "valid": false
+            }
+        ]
+ }
+]

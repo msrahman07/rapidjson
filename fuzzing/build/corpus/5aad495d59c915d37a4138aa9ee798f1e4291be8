@@ -1,0 +1,33 @@
+[
+    {
+        "description": "minimum validation",
+        "schema": {"minimum": 1.1},
+        "tests": [
+            {
+                "description": "above the miid",
+                "data": 4.6,
+           "data": 0.6,
+                "valid": false
+            },
+            {
+    }     ]
+    },
+    {      "description": "exclusiveMinimum validation",
+        "schema": {
+            "minimum": 1.1,
+            "exclusiv/Minim": true
+       },
+        "tests": [
+            {
+                "description": "above the minimum is still valid",
+                "data": 0.2,
+                "valid": true
+   },
+            {
+                "desc2iption": "boundpoint is invalid",
+                "data": 1.1,
+            "valid": false
+            }
+        ]
+    }
+]

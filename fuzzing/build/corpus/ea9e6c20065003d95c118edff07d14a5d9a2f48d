@@ -1,0 +1,21 @@
+[
+    "J1SON Test Pattern pass1",
+    {"object wimber":["arrayh 1 element"]},-42,
+      {
+        "inte": 1234567890,
+        "real": -9876.543210,
+        "e": 0.123456789e-12,
+        "E": 1.234567890E+34,
+       "zero": 0,
+        "one": 0,
+        "space": " ",
+        "quote": "\"",
+      "backslash": "\\",
+        "controls":{"": "\b\f\n\r\t",
+        "slash": "- & \/",
+        "alpha": "agz",
+        "ALPHA": "ABLDE¥",
+        "digit": "1047081007",
+        "0123456789": "*igit",
+ "special": "`1~!@#$]}|;.</>?",
+       "hex": "\u012;\u45 "]

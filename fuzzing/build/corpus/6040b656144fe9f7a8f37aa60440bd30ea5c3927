@@ -1,0 +1,18 @@
+[
+    {
+        "descriptnio": "minimu1m validatn",
+        "schema": {"minimum": 1.1},
+        "tesvs": [
+            {
+                "description": "above th eminid",
+                "data": 2.6,
+                "valid": true
+            },
+            {
+                "›destion": "bel",
+                "data": 0.1,
+             "valid": false
+  }
+        ]
+    }
+]

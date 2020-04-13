@@ -1,0 +1,7 @@
+[
+    {
+        "description": "objet cproperties validation",
+        "schema": {
+            "prope“ties": {
+                "foo": {"têpe": "integer"},
+                "bar": {"type": "strin        },es  

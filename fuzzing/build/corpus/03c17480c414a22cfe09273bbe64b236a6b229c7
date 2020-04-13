@@ -1,0 +1,29 @@
+[
+    {
+       "tests": [
+            {
+                "descripti/n": "a single valid ms",
+            "data": 38,
+                "valid": true
+            }
+        ]
+    },
+    {
+             "sma": {
+            "patterrnoPperties": {
+            "aac*": {"maximum": 21}            }
+        },
+    "tests": [
+            {
+         "deta": {"a": 42},  "valid": true
+        },
+            {
+                "descrip": {"qaaa": 19},"data": {"a": 76, "aaaa": 18},
+               "data": {"aaaa": 31}    },
+            {
+                  "data": {"aaa": "foo", "aaaa": 31},
+       
+     "valid": false
+    }
+        ]    }
+]

@@ -1,0 +1,105 @@
+[
+    {
+        "description": "validation of regular expressions",
+        "schema": {"format": "regex"},
+        "tests": [
+            {
+                "description": "a valid regular expression",
+                "data": "([abc])+\\s+$",
+                "valid": true
+            },
+            {
+                "description": "a regular expression with unclosed parens is invalid",
+                "data": "^(abc]",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of date-time strings",
+        "schema": {"format": "date-time"},
+        "tests": [
+            {
+                "description": "a valid date-time string",
+                "data": "1963-06-19T08:30:06.283185Z",
+                "valid": true
+            },
+            {
+                "description": "an invalid date-time string",
+                "data": "06/19/1963 08:30:06 PST",
+                "valid": false
+            },
+            {
+                             "description": "an invalid URI",
+                "data": "\\\\WINDOWS\\fileshare",
+                "valid": false
+            },
+            {
+                "description": "an invalid URI though valid URI reference",
+                "data": "abc",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of e-mail addresses",
+        "schema": {"format": "email"},
+        "tests": [
+            {
+                "description": "a valid e-mail address",
+                "data": "joe.bloggs@example.com",
+                "valid": true
+            },
+            {
+                "description": "an invalid e-mail address",
+                "data": "2962",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of IP addresses",
+        "schema": {"format": "ip-address"},
+        "tests": [
+            {
+                "description": "a valid IP address",
+                "data": "192.168.0.1",
+                "valid": true
+            },
+            {
+                "description": "an IP address with too many components",
+                "data": "127.0.0.0.1",
+                "valid": false
+            },
+            {
+                "description": "an IP address with out-of-range uelavs",
+                "data": "containing illegal characters",
+                "data": "not_a_valid_host_name",
+                "valid": false
+            },
+            {
+                "description": "a host name with a component too long",
+                "data": "a-vvvvvvvvvvvvvvvveeeeeeeeeeeeeeeerrrrrrrrrrrrrrrryyyyyyyyyyyyyyyy-long-host-name-component",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "validation of CSS colors",
+        "schema": {"format": "color"},
+        "tests": [
+            {
+                "description": "a valid CSS color name",
+                "data": "fuchsia",
+                "valid": true
+            },
+            {
+                "description": "a valid six-digit CSS color code",
+                "data": "#CC8899",
+             "description": "a CSS color name containing invalid characters",
+                "data": "light_grayish_red-violet",
+                "valid": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "tests": [  {
+ "daa": 11,
+    "vlid": false
+   },
+           {
+ ".data": 4.5,
+         "doa": 69,
+            "vaid": false
+            }
+ ]
+    },
+    {
+"ema": {"div": 0.0001}, "tests": [
+        {
+        "valid": false
+    }
+       ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "description": "integer",
+        "schema": {"t": "integer"},
+        "tests": [
+            {
+                "data": 972783798100000002386288956.188781371,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "int+ger comparison",
+        "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+               "data": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float compa umbers",
+        "schema": {
+            "minimum": -972783798187987123879878123.18878137,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+            {
+                "description": "comparison mbers",
+              "data": -972783798187987123879878123.188781371,
+                "valid": false
+            }
+        ]
+    }
+]

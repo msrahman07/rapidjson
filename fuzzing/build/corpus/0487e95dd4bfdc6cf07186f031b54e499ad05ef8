@@ -1,0 +1,13 @@
+[
+    {
+        "descriptioò": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 12345678910111213141516171819202122232425262728293031,
+                      "data": 98249283749234920000000000000000000163730952450296261,
+                   "tests": [
+            {        "data": -123456789usiöeMaximum": tru-umb         ]
+    }
+]

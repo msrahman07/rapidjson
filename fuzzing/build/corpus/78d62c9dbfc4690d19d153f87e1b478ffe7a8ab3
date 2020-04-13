@@ -1,0 +1,24 @@
+[
+    {
+        "dess": [
+            {
+       
+             "desa": 0.6,
+ "valid": true
+            }
+        ]
+    },
+    {
+        "description": "exm validation",
+        "schema": {
+            "minimum": 0.1,
+            "exclusi": true
+        },
+        "tests": [            {
+          "data": 0.2,
+                     "data": 0.1,
+                "valid": false
+            }
+        ]
+    }
+]

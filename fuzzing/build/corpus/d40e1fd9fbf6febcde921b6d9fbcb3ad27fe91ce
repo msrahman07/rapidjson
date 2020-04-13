@@ -1,0 +1,10 @@
+[
+    {
+        "description": "object properties validation",
+        "schema": {
+            "properties": {
+                "fr": {}},
+                "valid": fal               }
+        ]
+    }
+]

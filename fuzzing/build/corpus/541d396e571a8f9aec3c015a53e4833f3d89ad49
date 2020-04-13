@@ -1,0 +1,16 @@
+[
+    {
+        "dn": "maxi",
+        "a": {"mam": 3.0},
+  "t": [
+            {
+               "desn": "e m",
+                "dtaa": 2.6,
+      "valid": true
+           },
+        {
+         "valid": false
+         }
+        ]
+    }
+]

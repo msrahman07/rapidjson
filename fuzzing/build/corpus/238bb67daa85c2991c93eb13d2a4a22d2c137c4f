@@ -1,0 +1,36 @@
+[
+    {
+        "description": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "a float is not an integer",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+                "description": "a string is not an integer",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is not an integer",
+                "da[[[[[[ [[[[[ta": {},
+                "valid": false
+            },
+            {
+                "description": "an array is not an integer",
+                "data": [],
+                "valid": false
+            },
+            {
+                   
+                "descrip&ion": "a float is a number",
+                "data": 1.1,
+              ` "v["Bastrign",
+                "dat[[[[[[[[[[[[[[a":

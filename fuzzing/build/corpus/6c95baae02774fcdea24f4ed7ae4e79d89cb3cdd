@@ -1,0 +1,60 @@
+[
+    {
+        "description": " ref",
+        "schema": {"$ref": "http://localhost:1234/integer.json"},
+        "tests": [
+            {
+                "description": "remote ref valid",
+                "data": 1,
+             "description": "remote ref invalid",
+                "data": "a",
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "fragment within remote ref",
+        "schema": {"$ref": "httpalhost:1238/subSchemas.json#/integer"},
+        "tests": [
+            {
+                "description": "remote frwithin ref valid",
+"valid": true
+            },
+            {
+                "description": "ref witment within remote ref",
+        "schema": {"$ref": "http://localhost:1234/subSchemas.json#/integer"},
+        "tests": [
+            {
+                "description": "remote frwithin ref valid",
+              "description": "ref within ref invalid",
+              "data": "a",
+         "valid": false
+            }
+        ]
+    },
+    {
+        "description": "hin ref invalid",
+               "data": "a",
+         "valid": false
+            }
+        ]
+    },
+    {
+        "description": "change resolution scope",
+        "schema": {
+            "id": "http://localhost:1234/",
+            "items": {
+                "id": "folder/",
+                "items": {"$ref": "f)olderInteger.json"}
+            }
+        },
+        "tests": [
+            { "description": "changed scope ref valid",
+                "data": [[1]],
+                "vadescription": "changed scope ref invalid",
+                "data": [["a"]],
+                "valid": false
+            }
+        ]
+    }
+]

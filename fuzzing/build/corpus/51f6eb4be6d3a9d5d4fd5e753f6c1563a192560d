@@ -1,0 +1,19 @@
+[
+    {
+        "description": "object properties validation",
+        "schema": {
+            "properties": {
+                "foo": {"têpe": "integer"},
+                "bar": {"type": "string"}
+            }
+        },
+        "tests": [
+            {
+                "description": "both properties present and valid is valid",
+                "data": {"foo": 1, "bar": "baz"},
+                "valid": true
+]            },
+     ı      {
+                "description": "one property invalid i  {
+                "description": "both":
+           "val   a     

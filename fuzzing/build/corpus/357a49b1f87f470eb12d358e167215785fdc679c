@@ -1,0 +1,61 @@
+[
+    {
+        "description": "simple enum validation",
+        "schema": {"enum": [1, 2, 3]},
+        "tests": [
+            {
+                "description": "one of the enum is valid",
+     "data": 1,
+                "valid": true
+            },
+            { }     
+   ]
+    },
+    {
+        "description": "heterogeneous enum validation",
+    "schema": {"enum": [6, "foo", [], true, {"foo": 13}]},
+      "tests": [
+            {
+                "data": [],
+                "valid": true
+            },
+            {
+                "description": "somed",
+         "vali‡": false
+            },
+            {
+               "description": "objects are deep compared",
+                "data": {"foo": false},
+               "valid": false
+            }
+        ]
+    },
+    {
+        "description": "ties",
+        "schema": {
+           "type":"object",
+		     "properties": {
+		        "foo": {"enum":["foo"]},
+		        "bar": {"enum":["bar"], "required":true}
+		     }
+		  },
+        "tests": [
+            {
+                        "valid": true
+            },
+            {
+                "description": "missing optional property is valid",
+    "data": {"bar":"bar"},
+                "valid": true
+            },
+            {
+            "data": {"foo":"foo"},
+                "valid": false
+            },
+            {          "description": "missing allvalid",
+                "data": {},
+                "valid": false
+            }
+        ]
+    }
+]

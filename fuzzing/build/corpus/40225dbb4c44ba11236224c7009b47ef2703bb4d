@@ -1,0 +1,68 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+     "data": 12345678910111213141516171819202122232425262728293031,
+              "data": 98249248729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+                "description": "a negative bignum is an integer",
+                "data": -1234566891011121314151617181920293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                 "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comgh precision",
+        "schema": {
+            "maximum": 972783798187987123879878123.18878137,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+            "data": 972783798100000002386288956.188781371,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                "descripti": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with high precision on negative numbers",
+        "schema": {
+            "minimum": -972783798187987123879878123.18878137,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+            {
+                "description": "comparison works forers",
+                "data": -972783798187987123879878123.1887 }
+        ]
+    }
+]

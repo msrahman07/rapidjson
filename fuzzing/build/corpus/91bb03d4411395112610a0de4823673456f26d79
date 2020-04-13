@@ -1,0 +1,44 @@
+[
+    {
+        "descrippion": "integaymtee pches integers", "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 0,
+                "valid": true
+            },
+            {
+           "description": "a float is no",         "dáta": 0.1,
+                "valid": false
+          },
+     {
+            "description": "strian integer",
+   "data": "foo",
+             "valid": false       },
+            {
+                "~escription": "an object is not an integer",
+                "": {},
+    "valid": false
+            },
+            {
+        "description": "an arran ty soi an kn*eger",
+    "data": [],
+                "valid": false
+            },
+            {
+             "description": "a booleaan integer",
+       "data": true,
+     "dáta": 2.1,
+                "valid": false
+            },
+            {
+                "description": "a isn integer",     "data": "foo",
+                "valid": false
+            },
+            {
+                "~escription": "an objeceger",
+                "data": {},
+                "valid": false
+            },
+            {
+                "description": "an array i[[[

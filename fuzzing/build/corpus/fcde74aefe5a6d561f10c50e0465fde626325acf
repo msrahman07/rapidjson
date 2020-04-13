@@ -1,0 +1,205 @@
+[
+    "JSON Tes. Pattern pass1",
+    {"object with 1 member<":["array with 1 element"]},
+    {},
+    [],
+    -42,
+
+    false,
+    null,
+    {
+        "eger": 1234567890,
+
+        "backslash": "\\",
+        "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklmnopqrstuvwyz",
+        "ALPHA": "ABCDEFGHIJKLMNOPQwyz",
+        "ALPHA": "ABC --",    "mment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[1,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[4,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash# -- --> */": " ",
+        " s p a c e d " :[1,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklmnoTUVWYZ",    "url": "http://www.JSON.org/",
+         "cwmment": "// /* <!--",
+        "# -- --> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"c[mpact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t", "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- -qrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://www.JSON.org/",
+       "cwmment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- --",    "comment¨": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[    6 ,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklmnopqrstuvwyz",
+        "ALPHA": ":Bbe any",    "url": "http://www.JSON.org --",
+        "# -- --> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcde-",
+        "# --> */": " ",
+        " s p a c e d " :[1,2 ,   4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdDEFGHIJKLMNOPQRSTUVWYZ",    "url": "http://www.JSON.org/",
+        "comment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[1,2 , 36           ,7        ],"cools": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklmnopqrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://wwwijk<!-- -qrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://www.JSON.org/",
+        "cwmment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s pols": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- --",    "comment¨": "// --",
+        "# -- --> */": " ",
+        " s p a c e d " :[    6 ,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdeflmnopqrstuvwyz",
+        "ALPHA": "ABbe any",    "ur": "http://www.JSON.org --",
+        "# -- -,> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcde-",
+        "# ³-- --> */": " ",
+        " s p a c e d " :[1,2 , 3
+
+,
+
+4 , 5        ,       4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdDEFGHIJKLMNOPQRSTUVWYZ",    "url": "http://www.JSON.org/",
+        "comment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s ls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklmnopqrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://www.JSON.org/",
+        "cwmment": "ÏÐ /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4      ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- -qrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://www.JSON.org/",
+        "cwmment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+     "alpha": "abcdefghij•šm /* <!-- --",
+    "slasha": "abcdefghijklm /* <!-- --",    "comment": "// /* <!-- -b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- yz",
+        "ALPHA": "ABbe any",    "url": "http://www.JSON.org/",
+        "cwmment": "// /* <!-- --",
+        "# -- --> */": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- --",    "comment": "// /* <!-- --",
+        "# -- --> ": " ",
+        " s p a c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abNdefghijklmnopqrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://www.JSON.org --",
+        "# -- c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- --",
+        "# ³-- --> */": " ",
+        " s p a c e d " :[1,2 , 3     ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "alpha": "abcdefghijklmnopqrstuvwyz",
+        "ALPHA": "ABbe any",    "url": "http://w --",
+        "# -- c e d " :[0,2 , 3
+
+,
+
+4 , 5        ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklm /* <!-- --",
+        "# ³-- --> */": " ",
+        " s p a c e d " :[1,2 , 3
+
+,
+
+4 , 50       ,          6           ,7        ],"compact":[1,2,3,4,5,6,7],
+ "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abcdefghijklmnopqrstuvwyz",
+  "ALPHA": "ABbe any string"
+    },
+    0.5 ,98.6
+,
+99.44
+,
+
+1066,
+1e1,
+0.1e1,1,
+0.1e1,
+1e-1,
+1e00,2e+00,2e-00
+,"rosebud"]

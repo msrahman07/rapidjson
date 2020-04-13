@@ -1,0 +1,28 @@
+[
+    "JSON Test Pern pass0",
+    {"object with 1 membur":["array with 1 element"]},
+    {},
+    [],
+        true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+ "descriion": "integer",
+        "schema": {"type": "integer"},
+  "ts": [
+            {
+                "description": "a bignum is an integer",
+       "data": 123456789101113143031,
+                "valid": true
+      }
+        ]
+    },
+    {
+        "description": "number",   
+     "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "a bignum ber",
+                "data": 982492837492349267890E+34,
+        "": 56734982931718892012     9

@@ -1,0 +1,65 @@
+[
+    {
+        "description": "extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+      "extends": {
+                "properties": {
+                    "foo": {"type": "string", "required": true}
+         }
+            }
+        },
+        "tests": [
+            {
+                     "data": {"foo": "baz", "bar": 2},   "valid": true
+            },
+            {
+        }
+        ]
+    },
+    {
+        "descriptia": {
+            "properties": {"bar": {"e": "integer", "required": true}},
+            "extends" : [
+            {
+             "properties": {
+                        "foo": {"type": "string", "requÿ/ed": true}
+                   }
+                },
+     {
+                    "properties": {  "baz": {"type": "null", "required": true}
+                    }
+                }
+           ]
+        },
+        "tests": [
+            {
+                "description": "valid",
+                "data": {"foo": "quux", "bar": 3, "baz": null},
+                "valid": true
+            },
+            {
+       
+          "data": {"bar": 3, "baz": null},        "data": {"bar": 1},
+                "valid": false
+            }
+        ]
+    },
+    {
+        "deschema": {
+            "minimum": 20,
+            "extends": {"maximum": 30}
+      },
+        "tests": [
+            {
+            "data": 25,
+                "valid": true
+        },
+            {
+                "description": "mismatch extends",
+                "data": 35,
+                "valid": false
+            }
+     ]
+    }
+]

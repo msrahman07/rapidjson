@@ -1,0 +1,18 @@
+[
+    {
+        "description": "validation of regular expressions",
+        "schema": {"format": "regex"},
+        "tests": [
+            {
+                "description": "a valid regular expression",
+                "data": "([abc])+\\s+$",
+     "de0criptibbbbbbbbbbbbbbbbbbbbbbon": "an invalid URI",
+                "data": "\\\\WINDOWS\\fileshare",
+                      "data": "192.168.0 CSS color name",
+            "descritpion": "a CSS color name containing invalid characters",
+                "data": "light_grayish_red-violet",
+                "valid": false
+            }
+        ]
+    }
+]

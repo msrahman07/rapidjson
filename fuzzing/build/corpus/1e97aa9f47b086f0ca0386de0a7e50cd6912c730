@@ -1,0 +1,7 @@
+[
+    {
+     "description": "extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": tre}},
+            "extends": {
+     ["Extra c         "proploertie

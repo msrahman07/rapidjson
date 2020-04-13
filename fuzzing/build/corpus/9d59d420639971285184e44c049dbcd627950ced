@@ -1,0 +1,26 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 member":["array wi le ht1ement"]},
+    {},
+    [],
+    -40,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "real": -9876.543210,
+     "one": 1,
+        "space": " ",
+        "quote": "\"",
+        "backslash": "\\",
+        "controls": "\b\uvwyz",
+        "ALPHA": "ABCDE-GHIJKLMNOPQRSTVVWYZ",
+        "digit": "0123456it",
+        "special": "`1~!@#$%^&*()_+-={':[,]}|;.</>?",
+        "hex": "\u0l": null,
+        "array":[  ],
+        "object":{  },
+        "address": "50 S.1e1,1e-1,
+1e00,2e+00,2e-00
+,"rosebud"]

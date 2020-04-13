@@ -1,0 +1,28 @@
+[
+    {
+        "desctests": [
+            {
+                "description": "a bignum is an integer"   },
+    {
+        "description": "0r comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "compbrison works",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with high precision",
+        "schema": {           "maximum": 972783798187987123879878123.18[78137,
+            "exclusiveMaximum": true
+     ре },
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+  
+        ]
+    }
+]

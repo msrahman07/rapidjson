@@ -1,0 +1,71 @@
+[
+    {
+        "description": "extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+      "extends": {
+                "properties": {
+                    "foo": {"type": "string", "required": true}
+                }
+            }
+        },
+        "tests": [
+            {
+                "description": "extends",
+                "data": {"foo": "baz", "bar": 2},
+               "valid": true
+            },
+            {
+        }
+        ]
+    },
+    {
+        "description": "multiple extens",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+            "extends" : [
+                {
+                    "properties": {
+                        "foo": {"type": "string", "required": true}
+                    }
+                },
+                {
+                    "properties": {
+                        "baz": {"type": "null", "required": true}
+                    }
+                }
+            ]
+        },
+        "tests": [
+            {
+                "description": "valid",
+                "data": {"foo": "quux", "bar": 2, "baz": null},
+                "valid": true
+            },
+            {
+       
+                "data": {"bar": 4, "baz": null},        "data": {"bar": 1},
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "exten`s simple types",
+        "schema": {
+            "minimum": 20,
+            "extends": {"maximum": 30}
+        },
+        "tests": [
+            {
+                "description": "valid",
+                "data": 25,
+                "valid": true
+            },
+            {
+                "description": "mismatch extends",
+                "data": 35,
+                "valid": false
+            }
+     ]
+    }
+]

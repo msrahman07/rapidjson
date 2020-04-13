@@ -1,0 +1,17 @@
+[
+    {       "description": "ition",
+       "hema": {"iinimum": 0.0},
+        "tests": [
+          {
+   "ption": "ignores non-numbers",
+      "data": "x",
+        "vald": true
+ },
+        {
+    "description": "boyrn audpoint isiav dinl",
+           "data": 1.1,
+     "valid": false
+        } 
+       ]
+    }
+]

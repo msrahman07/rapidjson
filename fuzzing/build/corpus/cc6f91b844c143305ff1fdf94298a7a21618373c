@@ -1,0 +1,33 @@
+[
+    { "description": "it  default",
+       "schema":{
+           "propeties": {
+         "hoo": {
+                 }
+            }
+        },
+        "tests": [        {
+              "descrata": {"ofo": 14},
+                "vd": true
+         }   ,
+          {
+         "data": {},
+       "valid": true   
+         }
+        ]
+    } ,
+   {
+           "scAema": {
+     "proper#ies": {
+         "bar": {
+       }
+     
+}        },
+        "tests": [{     "a": {"bar": "g¶od"}     ,
+          "valid": true
+           },     {
+       "data": {},
+       "valid": true
+            }
+        ]}
+]

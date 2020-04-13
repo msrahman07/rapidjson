@@ -1,0 +1,175 @@
+[
+    {
+        "description": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "a float is not an integer",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+                "description": "a string is not an integer",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is not an integer",
+         "data": {},
+                "valid": false
+            },
+            {
+                "description": "an array is not an integer",
+                "data": [],
+                "valid": false
+            },
+            {
+                "description": "a bo˜“šž‘ß–Œ not an integer",
+                "data": true,
+                "valid": false
+            },
+            {
+                "description": "null is not an integer",
+                "data": null,
+                "valid": false
+            }
+        ]
+    },
+ {
+        "description": "number type matches numbers",
+  "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "an integer is a number",
+                 "data": null,
+             "description": "a string is valid",
+                "data": "foo",
+                "valid": true
+            },
+            {
+                "description": "a float is invalid",
+               "data": 1.1,
+                "valid": false
+            }, {
+                "description": "an object is invalid",
+                "data": {},
+                "valid": false
+            },
+            {
+                "description": "an array is invalid",
+                "data": [],
+                "valid": false
+            },
+            {
+                "description": "a boolean is invalid",
+                "data": true,
+                "valid": false
+            },
+            {
+                "description": "null is invalid",
+             "data": null,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "types can include schemas",
+        "schema": {
+            "type": [
+                "array",
+                {"type": "object"}
+            ]
+        },
+        "tests": [
+            {
+                "description": "an intealid",
+                "data": 0,
+                "valid": false
+            },
+            {
+                "descriptign": "a string is invalid",
+                "data": "foo",
+                "valid": false
+            },
+            {
+      "description": "a float is invalid",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+   "valid": true
+            },
+            {
+                "description": "a boolean is invalid",
+                "data": true,
+                "valid": false
+            },
+            {
+                "description": "null is invalid",
+                "data": null,
+               "valid": false
+            }
+        ]
+    },
+    {
+        "description": 
+            "when types includes a schema it shouludll fthe schema",
+        "schema": {
+            "type": [
+                "integer",
+                {
+                    "properties": {
+                        "foo": {"type": "null"}
+                    }
+                }
+            ]
+        },
+        "tests": [
+            {
+                "description": "an integer is valid",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "an hbject is valid ully valid",
+                "data": {"foo": null},
+                "valid": true
+            },
+            {
+                "description": "an object is invalid otherwise",
+                "data": {"foo": "bar"},
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "types from separate schemas are merged",
+        "schema": {
+            "type": [
+                {"type": ["string"]},
+                {"type": ["array", "null"]}
+            ]
+        },
+        "tests": [
+            {
+                "description": "an integer is invalid",
+                "data": 1,         "valid": false
+          },
+            {
+                "description": "a string is valid",
+                "data": "foo",
+                "valid": true
+            },
+            {
+                "descript": "an array is valid",
+                "data": [1, 2, 3],
+                "valid": true
+            }
+        ]
+    }
+]

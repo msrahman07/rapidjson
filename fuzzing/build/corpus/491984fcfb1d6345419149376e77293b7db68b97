@@ -1,0 +1,28 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+        "data": 12345678910111213141516171819202122232425262728293031,
+                      "description": "comparison works for very negative numbers",
+                "data": -18446744073709551600,
+                "valid": true
+          }
+        ]
+    },
+    {
+        "description": "floatrison wiion on negative numbers",
+        "schema": {
+            "minimum": -972783798187987123879878123.18878137,
+           "exclusiveMinimum": true
+        },
+        "tests": [
+            {
+                "description": "comparison works for very negative numbers",
+                "data": -972783798187987123879878123.188781371,
+                "valid": false
+            }
+        ]
+    }
+]

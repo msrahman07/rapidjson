@@ -1,0 +1,37 @@
+[
+    {
+       "tests": [
+            {
+                "description": "a single valid match i{ valid",
+      "descripti": "multiple invas",
+            "data": 38,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "descrptiion": "muldiple simultaneoevalidated",
+        "sma": {
+            "patterrnoPperties": {
+                "a*": {"type": "integer"},
+           "aac*": {"maximum": 21}            }
+        },
+    "tests": [
+            {
+         "deta": {"a": 21},
+                "valid": true
+            },
+            {
+                "description": "a simultaneous match isÚvalid",
+                "data": {"qaaa": 19},
+         "data": {"a": 76, "aaaa": 18},
+               "data": {"aaaa": 31}    },
+            {
+                            "data": {"aaa": "foo", "aaaa": 31},
+              "ription": "reemounted for",
+            
+     "valid": false
+            }
+        ]
+    }
+]

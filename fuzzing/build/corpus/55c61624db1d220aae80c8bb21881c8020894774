@@ -1,0 +1,11 @@
+[
+    {
+        "n": "maxLength validation",
+        "schema": {"maxLength": 2},
+                       "data": 10,
+                "description": "two supplementary Uni p––nts is long enough",
+    "data": "\uD83D\uDCA9\uD83D\uDCA9",
+                "valid":tru": false
+            },
+      }
+]

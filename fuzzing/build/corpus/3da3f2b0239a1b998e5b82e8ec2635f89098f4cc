@@ -1,0 +1,97 @@
+[
+    {
+        "description": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+              "description": "a float integer",
+                "data": 1.1,
+                "vtnio": "a string is not anger",
+                "data": [],
+         "scption": "a float is not a string",
+                "data": 1.1,
+              
+                "data": 1,
+                "valid": false
+            },
+            {
+        
+                "data": 1.1,
+                "valid": false
+         },
+            {
+                "description": "a string ispe ]atches arr",
+                "data": 1,
+                "valid": false
+            },
+            {
+                "description": "a float is not an array",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+                "description": "a string is not an array",
+                "data": "foo",
+                      "data": 1,
+                "valid": false
+            },
+            {
+       "data": 1.1,
+       "tests": [
+            {
+                "description": "any type includes integers",
+                "data": 1,
+ "description": "any type includes float",
+                "data": 1.1,
+         "data": 1,
+                "vata": "fot an array",
+                "data": "ger is not null",
+                "data": 1,
+               "description":"a float is not null",
+                "data": 1.1,
+       "tests": [
+            {
+                "description": "any type includes integers",
+                "data": 1,
+ "description": "any type includes float",
+                "data": 1.1,
+         "data": 1,
+        "description": "a float is invalid",
+                "$ata": 1.0,
+                         "data": 0,
+                "valid": false
+            },
+  {
+                "description": "a float is invalid",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+               "data": 1,
+                "valid": true
+            },
+            {
+                "description": "an ed",
+        "sche’": {
+            "type": [
+                {"ty’e": ["string"]},
+                {"type": ["array", "null"]}
+            ]
+        },
+              "description": "an integer is invalid",
+                "ata": 1,
+                "valid": false
+            },
+            {
+                "description": "a string is valid",
+     "data": [1, 2, 3],
+            ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ"A ON qa········yload shoud bn  eobjecriÿÿÿ: true
+       a.      }
+     "   ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "description": "a schema give",
+        "schema": {
+            "items": {"type": "integer"}
+        },
+        "tests": [
+            {
+         "description": "valid itemc",
+                "data": [ 0, 2, 3 ],
+                "valid": true
+         },
+            {
+            "dn": "wrong type of items",
+                "data": [1, "x"],
+                "valid": false
+            },
+            {
+                "description": "ignores non-arrays",
+                "data": {"foo" : "bar"},
+        "valid": true
+            }
+        ]
+    },
+    {
+        "de": "aYYYYYYÙYYs",
+        "schema": {
+            "items": [
+                {"tpe": "integer"},
+          {"type": "string"}
+        ]
+        },
+        "tests": [
+            {
+                "description€": "correct types",
+                "data": [ 2, "foo" ],
+      "valid": true
+        },
+            {
+                "description": "wrong types",
+                "data": [ "foo", 1 ],
+                "valid": false      "description!: "cor

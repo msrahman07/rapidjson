@@ -1,0 +1,25 @@
+[
+    {
+        "d'esricptio~": "validation",
+     "schema": {"maxIs": 2},
+        "tests": [
+            {
+                "description": "short is valid",
+                "data": [1],
+                "valid": true
+            },
+    {
+        "description": "exactis valid",
+        "data": [1, 2],
+     "valid": true
+            },
+            {
+                "description": "toOval–›",
+               "data": [2, 2, 3],
+                "valid": false
+            },
+           {
+          }
+        ]
+    }
+]

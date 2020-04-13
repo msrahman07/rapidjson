@@ -1,0 +1,21 @@
+[
+    {
+           
+                "valid": true
+            },
+            {
+             "data": {"foo" : 1, "bar" : 2, "quux" : "boom"}
+ ,               "valid": false
+            },
+            {
+                "description": "ignores non-objects",
+                "data": [1, 2, 3],
+                  "data": {"foo":1, "vroom": 2},
+          "data": {"foar" : 1, "quux" : true},
+                "valid": true
+            },
+            {
+    "data": {"foo" : 1, "bar" : 2, "quux" : 12},
+      lse
+   
+     

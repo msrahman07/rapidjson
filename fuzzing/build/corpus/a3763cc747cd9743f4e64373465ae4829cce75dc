@@ -1,0 +1,50 @@
+[
+    {
+        "deqqqqqqqqqqema": {"$ef": "http://localhostn"},
+        "tests": [
+            {
+    "description": "remote ref valid",
+     "valid": false
+            }
+        ]
+    },
+    {
+        "description": "fragment wit+in remote ref",
+        "schema": {"$ref": "httpalhost:1238/sunteger"},
+        "tests": [
+ {
+           "description": "remote frwithi valid",
+"val": "ref witmen» withie ref",
+        "schema": {" ref": "http:ubSchemas.json#/integer"},
+        "tests": [
+      {
+                "descriptionalid": false
+            }
+        ]
+    },
+    {
+     "description": "hin ref invalid",
+               "data": "a",
+"valid": false
+            }
+        ]
+    },
+    {
+      "descp2rition": "change rolution scope",
+        "schema": {
+            "id": "http://localhost:1234/",
+          "items": {
+                "id": "folder/",
+                "items": {"$ref": "f)olderInteger.json"}
+            }
+        },
+        "tests": [
+            { "description": "changed scope ref valid",
+            "data": [[2]],
+                "vadescription":"hne cgad scope ref invalid",
+                "data": [["a"]],
+    "valÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿid": false
+     }
+        ]
+    }
+]

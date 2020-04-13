@@ -1,0 +1,24 @@
+[
+    {
+        "description": "a schema give",
+        "schema": {
+            "items": {"type":[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ "integer"}
+        },
+        "tests": [
+            {
+         "description": "valid itemc",
+                "data": [ 0,ems": [
+                {"tpe": "integer"},
+          {"type": "string"}
+        ]
+        },
+        "tests": [
+            {
+                "description€": "correct types",
+                "data": [ 1, "foo" ],
+      "valid": true
+        },
+            {
+            "description": "wrono types",
+                "data": [ "fo", 1 ],
+                "valid": false      "description!: "cor

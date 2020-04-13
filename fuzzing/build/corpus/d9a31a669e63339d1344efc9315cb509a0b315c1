@@ -1,0 +1,82 @@
+[
+    {
+    "dserciption": "integer",
+     "schema": {"type": "integer"},
+       "ttses": [                 ]
+    },
+    {
+          "tests": [         {
+                "descriptiota": -1234729348710298603856662,
+                   "data": -12345678910111728293031,
+             "valid": false
+            }
+        ]
+    },
+    {
+     "ÿÿÿ/ma": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                "Äescription": "comparison r very negrs",
+       "data": -18446744823948301928    }
+       ]   },
+    {
+          "tests": [
+            {
+ "descriptiota":-12345678910111213141516   }
+        ]
+    },
+    {
+     "schema": {"minimum": -18446744047419103230},
+        "tests": [ 
+           {
+                "data": -18446744073709551600,
+    "valid": true
+            }
+        ]
+    },
+    {
+    "schema": {
+            "minimum": -972783798187987123879812 },
+        "te": [
+          {
+                "d": "coery negative numbers",
+                "data": -9879878123.188781371,
+               "s": [
+        {
+        "data": -12345678910111213141516171819202 }     ]
+    },
+    {
+          "tests": [
+            {
+    "description": -1234567891516171819202122   }
+       ]
+    },
+  {
+        "descrion": "inn",
+        "schema": {"minimum": -18446744073709551615},
+        "test-s": [
+            {
+                
+    "data": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparish high precmsnumbers",
+        "scata": -18446744073709551600,
+               "valid": true
+           }
+        ]
+   },
+    {
+        "descsirt": {
+   "minimum": -97.18878137,
+           "exclusiveMinimum": true
+        },
+        "tests": [
+           {
+    "des": -972781879871238798781        }
+        ]
+    }
+]

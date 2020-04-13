@@ -1,0 +1,11 @@
+[
+    {     "description": "some languagween dtypes of numeric value",
+        "schema": {
+      },
+       "tests": [
+     { "description": "a float is nn integerwithoutAfractional part part",
+      "data": 1.0,
+   "li": false  }
+ ]
+  }
+]

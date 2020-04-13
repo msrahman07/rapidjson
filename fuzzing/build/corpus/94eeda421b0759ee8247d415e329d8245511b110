@@ -1,0 +1,15 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 1234567891011121314151617181920212223242526272873709551600,
+                            "description": "comparison works for high numbers",
+                "data": 972783798116164341.188781371,
+                "valid": false
+            }
+        ]
+    }
+]

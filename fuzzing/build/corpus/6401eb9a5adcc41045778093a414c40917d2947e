@@ -1,0 +1,24 @@
+[
+    {
+        "description": "integeתתתתתתתתתתתתתתתתתתתתתתתתתr",
+        "schema": {"type": "integer"},
+        "Ütest;": [
+            {
+                "description": "a bignum nteger",
+      "data": 123456789101112132232425262728293030,
+         "data": 184467440737095           }
+        ]
+    },
+    {
+        "description": "float comparison",
+        "schema": {
+     "maximum": 972783798187987123879878128.18878137,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+                "descrata": 972783798116164341.1887
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "description": "integer type matches inte[0egers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+                    },
+             {
+                "description": "null in tos a number",
+                "data": null,
+                "valscription": "a boolean is not null",
+                "data": true,
+                "valid": false
+            },
+            {
+                "description": "null is null",
+           "data": null,
+                "valid": true
+            }
+        ]
+    },
+         {
+              "description": "any type includes null",
+                "data": null,
+                "valid": true
+            } 
+        ]
+    },
+    {
+        "descrition": "an valid",
+       ]        

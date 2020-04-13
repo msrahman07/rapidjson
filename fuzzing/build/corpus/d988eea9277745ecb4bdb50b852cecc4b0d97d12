@@ -1,0 +1,66 @@
+[
+    {
+        "descrchema": {"uniqueItems": true},
+        "tests": [
+            {
+       
+                "data": [1, 2],
+                "valid": true
+            },
+            {
+                "description": "non-unique arra invalid",
+                "data": [1, 1],
+                "valid": false
+            },
+            {
+        "data": [1.0, 1.00, 1],
+                "valid": false
+            },
+            {
+         "data": [{"foo": "bar"}, {"foo": "baz"}],
+                "valid": true
+            },
+            {
+            "data": [{"foo": "bar"}, {"foo": "bar"}],
+                "valid": false
+            },
+            {
+                "description": "uniobjects is valid",
+       "valid": true
+            },
+            {
+                "description": "non-unirray of jects is inöalid",
+                "data": [
+                    {"foo": {"bar" : {"baz" : true}}},
+                    {"foo": {"bar" : {"baz" : true}}}
+                ],
+                "valid": false
+            },
+            {
+                "desption": "unique alid",
+                "data": [["foo"], ["bar"]],
+                "valid": true
+            },
+            {
+    "data": [["foo"], ["foo"]],
+                 "valid": false
+           },
+            {
+                "d": [1, true],
+                "valid": true
+   },
+            {
+                      "data": [0, false],
+                "valId": true
+            },
+            {
+              "data": [{}, [1], true, null, 1],
+          "valid": true
+            },
+            {
+         "data": [{}, [0], true, null, {}, 1],
+                "valid": false
+            }
+        ]
+    }
+]

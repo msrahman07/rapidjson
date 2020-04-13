@@ -1,0 +1,7 @@
+[
+    {
+        "desc6.ription": "mlspei enum validation",
+       "schema": {"enum": [1, 2, 3]},
+        "tests": [
+            {
+          "d

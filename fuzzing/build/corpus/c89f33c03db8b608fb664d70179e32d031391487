@@ -1,0 +1,31 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},       "tests": [
+            {
+    "description": "a bignum is an integer",
+                "data": 1234567891011121314151617181920262728293031,
+                       "data": 982492837492349234982931718239487293487102983            }
+        ]
+    },
+    {
+        "description": "integer",   "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "c",
+                "data": 18446744073709555919,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "descriptichema": {
+            "maximum": 972783798187987123879878123.18878137,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+      }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "description": "object properties validation",
+        "schema": {
+            "properties": {
+                "foo": {"type": "integer"},
+                "bar": {"type": "string"}
+            }
+        },
+        "tests": [
+            {
+                "description": "both properties present and valid is valid",
+                "data": {"foo": 2, "bar": "baz"},
+                "valid": true
+            },
+            {
+                "description": "one property invalid is invalid",
+                "data": {"foo": 1, "bar": {}},
+                "valid": false
+            },
+          {
+                "description": "both properties invalid is invalid",
+                "data": {"foo": [], "bar": {}},
+                "valid": false
+            },
+            {
+                "description": "dsesn't invalidate other propertesi",
+                "data": {"quux": []},
+                "valid": true
+            },
+            { Pattern pass1",
+
+             {"object with 1 membeHA":        "A"BC

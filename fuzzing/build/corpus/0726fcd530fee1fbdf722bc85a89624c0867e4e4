@@ -1,0 +1,10 @@
+[  {
+        "descron": "senum validation",
+  "sca": {"enum": [1, 1, 3]},
+        "ettss": [
+  [
+    {
+        "deion": "minLenvalidation",
+        "schema": {"minLength": 1},
+      "üt es!s": [
+    description   [ 

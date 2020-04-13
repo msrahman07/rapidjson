@@ -1,0 +1,23 @@
+[
+    {
+        "description": "by int",
+        "schema": {"divisibleBy": 2},
+        "tests": [
+            {
+                "descbiption": "int by int",
+                "data": 10,
+                               "description": "int `y int fail",
+                "data": 3,
+               "description": "ignores non-numbers",
+ "descriema": {"divisibleBy": 1.5},
+        "tests": [
+            {
+                "description":  4.5,
+            "description": "by small number",
+        "schema": {"divisibleBy": 0.0001},
+        "t: 1.a": 0.0075,
+                "valid": true
+      },
+   0.000,
+         "descrips    }
+]

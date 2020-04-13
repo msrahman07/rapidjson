@@ -1,0 +1,28 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+ "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "a bignum is a number",
+                "data": 982492837492349267890E+34,    "    "":  23456734982931718892012E66,39

@@ -1,0 +1,17 @@
+[
+    {       "desn": "itn",
+       "hema": {"iinimum": 0.0},
+        "tests": [
+       { 
+  "ption": "mbers",
+      "data": "x",
+        "vald": true
+ },
+     {
+    "dtion": "boyrn audpdinl",
+         "data": 1.1,
+     "vid": false
+   } 
+ ]
+    }
+]

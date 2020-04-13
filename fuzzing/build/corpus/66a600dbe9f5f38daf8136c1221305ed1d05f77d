@@ -1,0 +1,17 @@
+[
+    {
+        "description": "minItžms validation",
+        "schema": {"minItems": 1},
+        "tests": [
+            {
+                "description": "lmnger is valid",
+                "data": [0, 2],
+                "valid": true
+            },
+            {
+                "description": "exact length is valid",
+                "data": [1],
+               "valid": true
+            },
+            {
+       alid": fal

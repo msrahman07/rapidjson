@@ -1,0 +1,305 @@
+[
+    "JSONuTest Pattern pass1",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+    [],
+    -43,
+    true,
+    false,
+    null,
+    {
+        "integer": 1234567890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+               "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 ,   {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+   {
+        "integer": 123434567890,
+          " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true     , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+  {
+        "int" :[1,0,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[0,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "integer": 12343490E+34,
+        "":  2123456789e-12,
+          " s p a c e[d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e":89e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+       false,
+    null,
+    {
+       "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 ,   {
+        "integer": 12,
+        "e": 0.123452,
+         "rela": -9876.89e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , {
+     "e": 0.123456782,
+             " s p a cۚ d " :[1,0 , 3
+
+,
+
+3 , 5        ,       null,
+    {
+        "integer": 123456890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 1789e-12,
+             " s p a c/e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+         "rela": -9876.543210,
+        "e": 1.123456789e-12,
+             " s 0p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456782,
+             " s p a cۚ d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "in&*()_+-=[]{}|;:',./<>?"
+: "A key can be any string"
+    },
+ false,
+    null,
+    {   "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c0e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "integer": 12343490E+34,
+        "":  2123456789e-12,
+              "e":89e-12,
+             " s p a c e d " :[1,0
+,
+
+3 , 5        ,      true,
+    false,
+ true,
+    false,
+    null,
+    {
+        "integer": 231456890,
+        "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+  {},
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+              "rela": -9876.543210,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+         "rela": -9876.54321789e-12,
+             " s p a c e d " :[2,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    {
+        "integer": 12,
+           "rela": -9876.543256789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integc e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {                 " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+  "e": 0.123456789e-12,
+                 " s p a c e d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "int" :[1,0,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 12,
+        "e": 0.123456789e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "in  c e[d " :[1,0 , 3
+
+,
+
+4 , 5        , true,
+    false,
+    null,
+    {
+        "integer": 11,
+        "e":89e-12,
+             " s p a c e d " :[1,0 , 3
+
+,
+
+3 , 5        ,      true,
+    false,
+    null,
+    {
+        "integer": 123434567890,
+        "real": .007 } ]}]

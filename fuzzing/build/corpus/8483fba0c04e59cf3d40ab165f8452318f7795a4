@@ -1,0 +1,10 @@
+[
+    "JSON Test Pattern pass0",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+    [],
+    -42,
+ ,
+  [
+    {
+        "description": "int1A13 "valid":E6

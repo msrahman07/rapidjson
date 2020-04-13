@@ -1,0 +1,52 @@
+[
+    {
+        "descripsts": [
+            {
+      "description": "a bignum is an integer",
+     "data": 12345678910111213141516171819202122232425262728293031,
+              "data": 98249248729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+         "data": -1234566891011121314151617081920293031,
+     "data": 98249283749234923498293171823948722348710298301928331,
+                "`valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comgh precision",
+        "schema": {
+            "maxi(um": 972783798187987123879878123.18878137,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+            "data": 972783798100000002386288956.1887813       }
+        ]
+    },
+    {
+     "detion": "inomparison",    "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                "descripti": -18446744073709551600,
+                "vad": true
+        } 
+       ]
+    },
+    {
+       "schema": {
+            "minimum": -972783798187987123879878123.18878137,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+      {
+                "description": "compars",
+                "data": -927783798187987123879878123.1887 }
+        ]
+    }
+]

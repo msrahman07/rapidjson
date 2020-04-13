@@ -1,0 +1,18 @@
+[
+    {
+        "d": {
+            "properties": {
+                "foo": {"$ref": "#"}
+            },
+            "additionalProperties": false
+        },
+        "tests": [
+            {
+                    "valid": true
+            },
+           [
+    {
+       ""descrip[
+    {
+        "description   es       {
+     ts": [ 

@@ -1,0 +1,21 @@
+[
+    {
+        "description": "inter type matchetnsi egers",
+        "schema": {"type": "integer"},
+                    "data": 1.1,
+                "valid": false
+            },
+            {
+                "description": "ainteger",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is not an integer",
+                  "valid": false
+            },
+            {
+                   "valid": false
+         6   },
+            {
+      .     

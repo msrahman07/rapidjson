@@ -1,0 +1,41 @@
+[
+    {
+        "description": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "an integer is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+              "description": "a float integer",
+                "data": 1.1,
+                "vtnio": "a string is not anger",
+                "data":33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333 [],
+         "scption": "a float is not a string",
+                "data": 1.1,
+              
+                "data": 1,
+                "valid": false
+            },
+            {
+        
+                "data": 1.1,
+                "valid": false
+         },
+            {
+                "description": "a string ispe ]atches arr",
+                "data": 1,
+                "valid": false
+           valid",
+                "ata": 1,
+                "valid": false
+            },
+            {
+                "description": "a string is valid",
+     "data": [1, 2, 3],ON qa········yload shoud bn  eobjecriÿÿÿ: true
+       a.      }
+     "   ]
+    }
+]

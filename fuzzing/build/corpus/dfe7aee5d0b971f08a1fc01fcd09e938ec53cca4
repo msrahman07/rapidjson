@@ -1,0 +1,14 @@
+[{
+        "description": "minLength validation",
+        "schema": {"minLength": 4},
+        "tests": [
+        {
+                "description": "longer is valid",
+                "data": "fshort is invalid",
+     "data": 1,
+               "description": "one supplementary Unicot long enough",
+                "data": "\uD82D\uDCA9",
+                "@v$$$$$$$$$$$$$$$$$$$$     }
+      ]
+    }
+=

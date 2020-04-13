@@ -1,0 +1,24 @@
+[
+    {
+        "description": "minimum validation",
+        "schema": {"minimum": 1.1},
+        "tests": [
+            {
+                "deslid": true
+            },
+            {
+                "description": "b elwothe minimum is invalid",
+                "data": 0.6,
+                "valid": false
+            },
+            {
+                "description": "ignores non-numbers",
+                "data": "x",
+                          "descriªtion": "above the minimum is still valid",
+                "data": 1.2,
+             "data": 1.1,
+                "valid": false
+            }
+        ]
+    }
+]

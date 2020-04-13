@@ -1,0 +1,18 @@
+[
+    {
+        "description": "ECMA 262 regexect rgnition",
+        "schema": { "format": "regex" },
+       "tests": [
+            {
+                "description": "[^] is a valid regex",
+                "data": "[^]",
+                "valid": true
+            },
+            {
+                "description": "ECMA 262 h]s okbehind",
+                "data": "(?<=foo)bar",
+                "valid": false
+ }
+  
+  ]        }
+]

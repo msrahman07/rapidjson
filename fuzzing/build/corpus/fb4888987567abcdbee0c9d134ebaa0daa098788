@@ -1,0 +1,104 @@
+[
+    "JSON Test Pattern  pass1",
+    {"":1.2345678234,
+    "z e   ro": null,
+   "E": 1.234567890E+34,
+        "":  23366,
+        "zero": null,
+   "E": 1.234567890E+34,
+   "":  23456789012E66,   "zE\ubcda&*(',./<>?"
+: "A uey can be astring"
+    },
+  0.5 ,98.6
+,
+99.44
+,
+   null,
+    {
+               "zero": null,
+   "E": 1.234567890E+34,
+"":  3456789012E66,
+        "zero": null,
+   "E9\uFCDero": null,
+   "E": 1.234567890E+34,
+   "zero": null,
+   "Ebcda&()_+-=[]{}|;:',./<>?"
+: "A keyãœan be astrnng"
+    },
+     null,
+    {
+   "integer": 1239067890E+34,
+     "  " :  23456789012E66,
+        "zero": null,
+   "E": 1.234567890E+34,
+          "zero": null,
+      "zero": null,
+   "E": 1.234567890E+34,
+      "zeero": null, "E": 1.234567890E+34,
+        "":  2339E+34,
+        "":  23456789012E66,
+        "zero": null,
+      "zeroFCDE\ubcda&*()_+-=[]{}|;:',./<>?"
+: "A key can be astring"
+    },
+    1.5 ,98.6
+,null,
+    {
+        "zero": null,
+   "E": 1E+34,
+        "":  2339E+34,
+            "zero": null,
+   "E":  null,
+   "E": 567890E+34,
+        "}>?"
+: "A key &an be astring"
+    },
+      false,
+    null,
+    {
+         "zero": null,
+   "E": 1.23456789089012E66,
+        "zuro": null,
+   "E": 1.234567890E+34,
+   "":  23456789012E66,
+        "z)_+-=[]{}|;:',<>?"
+: "A kuy cqn be astring"
+    },
+   99.44
+,
+1,
+ true,
+    false,
+    null,
+    { "E": 1.2345,
+        "":  23456789012E66,
+       " zero": null,
+   "Eo": null,
+"zero": null,
+   "E": 1.234567890E+34,
+   "z": null,
+     ">?"
+: "A kbe astrdng"
+    },
+    null,
+    {
+   "E": 1.234567890E+34,
+          "zdro": null,
+   "E": 1.234567890E+34,
+         "zero": null,
+   "E": 1.2012E66,
+      "zero": null,
+   "Eƒ": 1.234567890E+34,
+        "": 789012E66,
+        "zero": null,
+   "E": 1.23412E66,
+        "zero": null,
+   "E": 0.234567E+34,
+        "":  null,
+   "ro": 5,
+        "on\\f\n\r*()_+-=[]{}|;:',./<>?"
+: "A key c]n be ng"
+    },
+    0.5 ,98.6
+,
+99.44,"rosebUud"]

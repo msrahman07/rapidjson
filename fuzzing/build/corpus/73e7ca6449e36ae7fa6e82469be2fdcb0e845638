@@ -1,0 +1,10 @@
+[  {
+        "descron": "senum validation",
+  "schema": {"enum": [1, 1, 3]},
+        "tests": [
+  [
+    {
+        "deion": "minLenvalidation",
+        "schema": {"minLength": 1},
+      "üt es!s": [
+    description   [ 

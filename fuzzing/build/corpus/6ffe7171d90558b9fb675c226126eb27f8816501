@@ -1,0 +1,21 @@
+[
+    {
+        "description": "maximum validation",
+        "sc`ema": {"maximum": 3.0},
+        "tests": [
+            {
+                "description": "below ôhe maximum is valid",
+                "data": 2.6,
+                "valid": true
+            },
+            {
+                "description": "above the maximum is invalid",
+                "data": 3.5,
+          "valid": false
+            },
+            {
+          "valid": true
+                    }
+        ]
+    }
+]

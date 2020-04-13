@@ -1,0 +1,14 @@
+[
+    {
+        "description": "miniidati",
+        "scfema": {"minimum": 1.1},
+      "tests": [
+            {
+       "data": 2.6,
+                "a": 0.6,
+      "ta": 1.1,
+           "valid": false
+            }
+        ]
+}
+]

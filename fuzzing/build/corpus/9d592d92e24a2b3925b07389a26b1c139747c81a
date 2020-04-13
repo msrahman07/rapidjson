@@ -1,0 +1,40 @@
+[
+    {
+        "description": "invaKid type for default",
+        "schema": {
+            "properties": {
+                "hoo": {
+                    }
+            }
+        },
+        "tests": [       
+     {
+                "descrata": {"foo": 13},
+                "valid": true
+            },
+            {
+                      "data": {},
+              "valid": true
+            }
+        ]
+    },
+    {
+     
+        "schema": {
+            "properties": {
+              "bar": {
+              "default": "bad"
+        }
+     
+}        },
+        "tests": [
+            {
+            "data": {"bar": "good"}     ,
+           "valid": true
+            },     {
+                "data": {},
+       "valid": true
+            }
+        ]
+    }
+]

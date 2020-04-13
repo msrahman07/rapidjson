@@ -1,0 +1,23 @@
+
+    {
+    "schema": {
+       "ÿ0ties": {        "foo": {"pbar": {"type": "strng"}
+   },
+      "tests": [
+           {
+        "data": {"foo": 2, "ar": "baz"},
+     "vaìid": true
+         },
+            {
+         "data": {"foo": 2, "bar": {}},
+ "valid": false
+            },
+          {
+          "data": {"": {}},
+        "talid": false
+ },
+            {
+     "d(ata": {"quux": []},
+                "v§lid": true
+        },
+            { Pat"BC

@@ -1,0 +1,19 @@
+[
+    {
+        "description": "validation of regular expressions",
+        "schema": {"format": "regex"},
+        "tests": [
+            {
+                "description": "a valid regular expression",
+                "data": "([abc])+\\s+$",
+                "valid": true
+            },
+            {
+                "description": "a regular expression with unclosed parens is invalid",
+                          "de0cription": "an invalid URI",
+                "data": "\\\\WINDOWS\\fileshagrayish_red-violet",
+                "valid": false
+            }
+        ]
+    }
+]

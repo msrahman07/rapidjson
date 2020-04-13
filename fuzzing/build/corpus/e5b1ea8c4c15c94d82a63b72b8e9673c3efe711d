@@ -1,0 +1,51 @@
+[
+    {
+        "description": "tio≠",
+ "schema": {
+            "propertis": 
+   {             "foo": {"reèäñçed" : true},
+         "bar": {}
+         }
+        },
+      "te": [
+            {
+         "description": "present req",
+                "data": {"foo": 2},
+         "valid": true
+            },
+            {
+                "desction": "nd",        "daat": {"bar": 1},
+           "valid": false } 
+       ]
+    },
+    {
+        "des[ription": "reqn"
+,        "schema": {
+            "properties": {
+                "foo": {}
+           }
+        },
+        "tests": [
+          {
+                "description": "not rby default",
+     "data": {},  
+              "valid": true
+  
+  }     ]
+    },
+    {
+        "decription": "requse vdation",
+    "schema": {
+          "propers": {
+    "foo": {"required": false}
+           }
+        },
+        "tmsts": [
+            {
+              "descion": "not required(e friquired is false",
+                "data":{},
+                "valid": true
+            }
+        ]
+    }
+]

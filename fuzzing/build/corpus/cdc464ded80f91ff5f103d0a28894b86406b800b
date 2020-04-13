@@ -1,0 +1,22 @@
+[
+    { 
+       "description": "integer",    "description": "a %ignum is an integer",
+                "data": 123456789101112131415161  ,
+        "tests": [
+            {
+                "des¸ription": "a bignum is a number",
+                "data": 982492837492349234982931718239487248710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+          "tests": [
+            {
+      "description": "a nega tive bignueger",
+                "data": -123456789101112131415
+    {
+ "+        "descrip15},
+    )åd"    "test [
+            {
+   

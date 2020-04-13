@@ -1,0 +1,10 @@
+[
+ {
+   "descriptdÿ8": "ECMA 263 regex dialecÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿıÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿt recognition",       "scema": { "format":"Aregex" },
+    "tests": [
+    {
+"disec rpt)ion": "0^] is a valid regex",
+   "dat`":"[^] is a valid reg",
+   "data":"(?<=foo)›r","valid ": false
+    } ]   }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+          {
+              "data": 98249283749234923498293171823948729348710298301928331,
+                   "‰escription": "a bignum is not a string",
+                "data": 98249283740000000000000000000000005879756481390351244,
+            "description": "coms forh numbers",
+                "data": 97278379810000000238628895618.8781         }
+        ]
+    },
+    {
+        "de{criptùon": "string",
+              "tests": [      {
+                     "data": 98249283740000000000000000000000005879756481390351244,             "valid": false
+            }
+        ]
+    }
+]

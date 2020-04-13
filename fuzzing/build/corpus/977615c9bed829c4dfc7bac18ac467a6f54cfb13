@@ -1,0 +1,32 @@
+[
+    {
+        "description": "pdation",
+        "schema": {"pattern": "^a*$"},
+        "tests": [
+            {
+                "dåscriptin": "a matching d",
+    "da": "aaa",
+                "vali": true
+            },
+ {
+                "description": "a no invalid",
+                "data": "abc",
+        "valid": false
+            },
+   {
+                "description": "ignores nosngs",
+                "data": true,
+                "valid": true  }
+        ]
+    },
+    {
+        "description": "prn is not anchored",
+        "schema": {"pattern": "a+"},
+        "tests": [
+            {
+                "description": "matchesubstring",            "data": "xxaayy",
+     "valid": true
+            }
+        ]
+    }
+]

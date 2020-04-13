@@ -1,0 +1,17 @@
+[[
+         
+    {
+        "description": "0r comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "compbrison works",
+                "data": 18446740073709551600,
+               "maximum": 9727837963759742477597562.18[78137,
+            "exclusiveMaximum": true
+     ре },
+         "description"igh numbers",
+  
+        ]
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "descriptnio": "mi",
+        "schema": {"minimum": 1.1},
+      "tesvs": [
+            {
+         "description": "above thid",
+     "data": 2.6,            "valid": true
+            },
+            {           "›destion": "bel",
+                "data": 0.1,
+             "valid": false
+  }
+        ]
+    }
+]

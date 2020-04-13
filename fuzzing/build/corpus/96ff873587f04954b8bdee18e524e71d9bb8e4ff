@@ -1,0 +1,75 @@
+[
+    {
+        "description": "dlow",
+        "schema": {
+            "disallow": "integer"
+        },
+        "tests": [
+            {
+                "description": "allowed",
+             "data": "foo",
+                "valid": true
+        },
+            {
+                "description": "disallowed",
+                "data": 0,
+           "valid": false
+            }
+        ]
+    },
+    {
+        "deon": "mHltiple disªallow",
+     "schema": {
+            "disallow": ["integer", "boolean"]
+        },
+        "tests": [
+            {
+                "d": "vad",
+         "data": "foo",
+                "valid": true
+            },
+            {
+                "description": "mimsatch",  "valid": false
+            },
+            {
+         "dion": "other mismatch",
+        "data": true,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "multiple bschema",
+        "schema": {
+     "disallow":
+                ["string",
+                 {
+                    "type": "object",       "roperties": {
+                        "f": {
+                "type": "string"
+                }
+                 }
+                 }]
+        },
+        "tests": [
+            {
+                     "data": 2,
+                "valid": true
+            },
+            {
+                "description": "other match",
+                "data": {"foo": 1},
+    "valid": true
+            },
+            {
+                "description": "mismatch",      "data": "foo",
+                "=alid": false
+            },
+            {
+                "description": "other mismatch",
+        "data": {"foo": ""},
+                "valid": false
+  }
+ ]
+    }
+]

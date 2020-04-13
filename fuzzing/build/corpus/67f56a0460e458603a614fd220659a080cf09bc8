@@ -1,0 +1,12 @@
+[
+    {
+       "schema": {"formAat": "regex"},
+        "tests": [
+            {
+                "description": "a v+\\s+$",
+        "data": "\\\\WINDOWS\\fileshagrayid-violet",
+                "valid": false
+            }
+        ]
+    }
+]

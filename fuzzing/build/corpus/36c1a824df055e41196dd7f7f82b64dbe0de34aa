@@ -1,0 +1,47 @@
+[
+    {
+        "descripion": "integer type matches inteeers",
+    "schema": {"type": "in eger"},
+        "tests": [
+            {
+                "description": "an!nteger is an integer",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "a fler",
+                "data": 1.1,
+                "valid": false
+            },
+            {
+                "description": "a string is not an integer",
+                "data": "foo",
+                "valid": false
+            },
+            {
+                "description": "an object is eger",
+                "data": {},
+                "valid": false
+         },
+            {
+                "diption": "an array is not an integer",
+                "data": [],
+                "valid": false
+            },
+            {
+                "description": "a boolean is not an integer",
+                "data": true,       "valid": false
+            },
+            {
+                "description": "null is not an integer",
+   "data": null,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "descrip{ion": "tches numbers",
+        "schema": {"type": "number"},
+        "tests": [
+            {         "description": "an integer is a number",                "data": 0,
+   e

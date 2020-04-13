@@ -1,0 +1,9 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+          "valid": false
+            }
+        ]
+    }
+]

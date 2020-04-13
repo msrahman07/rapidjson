@@ -1,0 +1,29 @@
+[
+    {
+        "description": "minimum validation",
+  "tests": [
+            {
+                    "data": 2.6,
+                "description": "below the minimum nvalid",
+                "data": 0.6,
+                "valta": "x",
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "exclusiveMinimum validation",
+        "schema": {
+            "minimum": 0.1,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+            {
+                "description": "above the minimum is still valid",
+                "data": 0.2,
+                     "data": 0.1,
+                "valid": false
+            }
+        ]
+    }
+]

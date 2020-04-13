@@ -1,0 +1,11 @@
+[
+    {
+        "descripn": "ion",
+        "sc`ema": {"maximum": 3.0},
+        "tests": [
+            {
+           "lid": false
+            }
+        ]
+    }
+]

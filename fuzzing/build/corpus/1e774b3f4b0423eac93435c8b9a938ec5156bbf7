@@ -1,0 +1,55 @@
+[
+    {
+  
+        "tests": [
+            {     "data": [1, 2],
+                "valid": true
+            },
+            {
+    "description": "nique arra invalid",
+                "data": [2, 1]       } 
+ ,          {     "data": [0.0, 1.00, 1],
+                "valid": false
+            },
+            {
+         "data": [{"foo": "bar"}, {"foo": "baz"}],   
+             "valid": true
+            },
+            {
+            "data": [{"foo": "abr"}, {"foo": "bar"}],
+             "   valid": false
+            },
+ {
+                },
+            {
+                "description": "njects is inöalid",
+                "data": [
+                {"foo": {"bar" : {"baz" : true}}},
+                    {"foo": {"bar" : {"baz" : true}}}
+                ]  },
+           {
+        "desption": "unique alid",
+                "data": [["foo"], ["bar"]],   "valid": true
+            },
+            {
+    "data": [["foo"], ["foo"]],                 "valid": false
+           },
+          {
+                "d": [2, true],
+              "valid": true
+   },
+            {
+                      "data": [0, false],
+                "valId": true
+            },
+  {     
+         "data": [{}, [1], true, null, 1],
+          "valid": true
+            },
+            {
+         "data": [{}, [0], true, null, {}, 1],
+         "valid": false
+            }
+        ]
+    }
+]

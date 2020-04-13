@@ -1,0 +1,27 @@
+[
+    {
+        "description": "minon",
+        "schema": {"minimum": 1.1},
+        "tests": [
+            {
+                "descriiopnt": "above the miid",            "data": 4.6,
+           "data": 0.6,
+                "valid": false
+            },
+            {
+    }     ]
+    },
+    {      "descriptima": {
+            "minimum": 1.1,
+            "exclusiv/Minim": true
+       },
+        "tess": [
+            {
+          "data": 0.2,
+       "desc2iption": "boundpoint is invalid",
+                "data": 1.1,
+            "vlid": false
+        }
+        ]
+    }
+]

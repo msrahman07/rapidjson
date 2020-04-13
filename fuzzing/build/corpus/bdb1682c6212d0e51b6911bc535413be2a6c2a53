@@ -1,0 +1,72 @@
+[
+    {
+        "description": "extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+            "extends": {
+                "properties": {
+                    "foo": {"type": "string", "required": true}
+                }
+            }
+        },
+        "tests": [
+            {
+                "description": "extends",
+                "data": {"foo": "baz", "bar": 2},
+                "valid": true
+            },
+            {
+                "description": "mismatch extends",
+             "data": {"foo": "baz"},
+                "valid": false
+            },
+            {
+                "description": "mismatch extended",
+                "data": {"bar": 2},
+                "valid": false
+            },
+            {
+                "description": "wrong type",
+                "data": {"foo": "baz", "bar": "quux"},
+             "valid": false
+            }
+        ]
+    },
+    {
+        "description": "multiple extends",
+        "schema": {
+            "properties": {"bar": {"type": "integer", "required": true}},
+            "extends" : [
+                {
+                    "properties": {
+                      "foo": {"type": "string", "required": true}
+                    }
+                },
+                {
+                    "properties": {
+                        "baz": {"type": "null", "required": true}
+                    }
+                }
+            ]
+        },
+        "tests": [
+            {
+                "descrialid": true
+            },
+            {
+                "description": "mismatch first extends",
+                "data": {"bar": 2, "baz": null},
+                "valid": false
+            },
+            {
+           "data": {"foo": "quux", "bar": 2},
+                "valid": false
+            },
+            {
+     "tests": [
+        {
+                       "valid": false
+            }
+        ]
+    }
+]

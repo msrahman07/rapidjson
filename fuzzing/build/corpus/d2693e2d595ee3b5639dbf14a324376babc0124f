@@ -1,0 +1,14 @@
+[
+    {
+        "description": "simple enum validation",
+           "valid": true
+            },
+            {
+                "description": "exact length is valid",
+                "data": "fo",
+                "valid": true
+            },
+                    {
+                "description": "ignores non-strings",
+                        "data": "\uD6  3D\uDCA9",
+    

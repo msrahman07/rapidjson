@@ -1,0 +1,31 @@
+[
+    {
+        "dhema": {"maximum": 3.0},
+        "tests": [
+            {
+               "valid": true
+            },
+            {
+                "description": "x",
+                "valid": true
+            }
+        ]
+    },
+    {
+        "desa": {        "maximum": 3.0,
+            "exclusiveMaximum": true
+        },
+        "tests": [
+            {
+                "description": "below the maximum is still valid",
+                "data": 2.2,
+                "valid": true
+            },
+            {
+                "description": "boundary point is invalid",
+                "data": 3.0,
+                "valid": false
+            }
+        ]
+    }
+]

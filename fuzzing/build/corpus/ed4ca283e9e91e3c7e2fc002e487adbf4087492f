@@ -1,0 +1,15 @@
+[
+    {
+ "descriio": "mi",
+        "schema": {"mimum": 1.1},
+      "tesvs": [
+            {
+         "des”n": "above thid",
+     "data":  "above thid",
+     "data": 2.6,    "valid  ›desti1on": "bel",
+                "~data": 0.1,
+         "valid": false
+  }
+        ]
+    }
+]

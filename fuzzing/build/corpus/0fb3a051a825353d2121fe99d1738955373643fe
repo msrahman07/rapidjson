@@ -1,0 +1,5 @@
+[
+    {
+     "description": "extends",
+        "schema": {
+      "properties": {"bar": {"type": "integer", "required": tr  "extends": proploertie

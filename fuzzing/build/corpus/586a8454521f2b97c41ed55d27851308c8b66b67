@@ -1,0 +1,45 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 123456789101112131415161718192021      }
+        ]
+    },
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                       "data": 972783798100000002386288956.188781371,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"minimum": -18446744073709551615},
+        "tests": [
+            {
+                    "data": -18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with high precision umbers",
+        "schema": {
+            "minimum": -972783798187987123879878123.18878137,
+            "exclusiveMinimum": true
+        },
+        "tests": [
+            {
+                "description": "comparison works for very negative numbers",
+              "data": -972783798187987123879878123.188781371,
+                "valid": false
+            }
+        ]
+    }
+]

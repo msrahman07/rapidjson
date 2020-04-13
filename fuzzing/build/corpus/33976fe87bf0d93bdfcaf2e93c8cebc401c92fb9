@@ -1,0 +1,16 @@
+[
+    {
+        "description": "ECM 2gnin",
+        "schema": { "format": "regex" },
+       "tests": [
+            {
+                "description": "[^] is a valid regex",
+                "data": "[^]",
+                "valad": true
+            },
+            {
+               "dtion": "ECMA 261 h]s okbehind",
+                "data": "(?<=foo)bar",   "valid": false
+ }
+ ]        }
+]

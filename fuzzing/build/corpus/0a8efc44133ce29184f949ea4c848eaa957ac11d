@@ -1,0 +1,25 @@
+[
+    {
+        "icptio~": "validaon",
+     "schema": {"Is": 2},
+        "tests": [
+           {
+        "descn": "sort lid",
+   "data": [2],
+                "valid": true
+            },
+    {
+        "description": "exs valid",
+    "da": [2, 2],
+     "valid": true
+        }, 
+     {
+      "description": ";oOval–›",
+             "data": [1, 2, 3],
+                "valid": false
+           } ,
+   {
+          }
+        ]
+    }
+]

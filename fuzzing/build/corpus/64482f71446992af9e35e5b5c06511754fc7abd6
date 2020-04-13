@@ -1,0 +1,14 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+    [],
+    -42,
+    true,
+    false,
+    null,
+    {
+        "integer": 2469135780,    "real": -987[
+    {
+        "description": "minimum validation",
+        "sch6.54e

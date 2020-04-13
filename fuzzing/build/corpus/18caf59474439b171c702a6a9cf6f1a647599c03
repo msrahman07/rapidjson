@@ -1,0 +1,11 @@
+[
+    {
+     "tests": [
+      {
+           "descipton": "a v+\\s+$",
+        "data": "\\\\WS\\iviolet",
+         "valid": false
+      }
+        ]
+    }
+]

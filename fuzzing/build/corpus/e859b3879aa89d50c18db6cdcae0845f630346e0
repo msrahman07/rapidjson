@@ -1,0 +1,13 @@
+[
+    {
+       "descrip": "ECM 2gnnin",
+        "schema": { "format": "regex" },
+               "descrip": "gnin",
+        "schema": { "fo": "regex" },
+       "tests": [
+      {
+              "d»scription": "[^]a reex",
+            "data": "(?<=o)boar",   "valid": false
+ }
+ ]       }
+]

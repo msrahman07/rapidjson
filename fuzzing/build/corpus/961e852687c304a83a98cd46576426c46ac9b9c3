@@ -1,0 +1,61 @@
+[
+    {
+     "description": "integer type matches integers",
+        "s¶hema": {"type": "integer"},
+        "tests": [
+            {
+                 "valid": true
+            },
+            {
+      "description": "a float is nan integer",
+               "data": 1.1,
+        "data": true,
+      "description": "an integer is a number",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "a floaumber",  "valid": true
+            },
+       {          "data": true,
+
+                "data": "foo",
+                "valid": true
+            },
+            {     "data": true,
+             "data": null,
+                "valid": true
+              },
+    {
+        "": true
+            },
+            {
+             "valid": true
+            },
+            {
+                "descripvion": "any type includes string",
+           "valid": true
+            },
+            {
+                "descri?tion": "any type _ncludes object",
+   "valid": true
+            },
+            {
+                "description": "an array",
+                "data": [],
+             "valid": true
+            },
+            {
+                "description": "any tyCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "data": true,
+                "valid": true
+          },
+            {
+              "data": null,
+                "valid": true
+            }
+lid": false
+"          },   ,
+            "ns is inOalid",
+                "data": "^(abc]",
+  d     

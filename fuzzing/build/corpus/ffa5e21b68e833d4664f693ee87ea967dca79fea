@@ -1,0 +1,16 @@
+[
+    {
+        "description": "maximion",
+        "sc`ema": {"maximum": 3.0},
+      "tests": [
+            {
+               "description": "e maximum is valid",
+                "data": 2.6,
+      "valid": true
+           },
+            {
+         "valid": false
+         }
+        ]
+    }
+]

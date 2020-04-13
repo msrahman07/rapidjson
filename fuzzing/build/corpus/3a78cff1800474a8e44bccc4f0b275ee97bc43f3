@@ -1,0 +1,22 @@
+
+    {
+    "sc1ema": {
+"ÿ1ties": {        "foo": {"pbar": {"type": "strng"}
+   },
+      "tests": [    {
+      "data": {"foo": 2, "ar": "baz"},
+     "vaìid": true
+         },
+            {
+     "dat": {"for": {}},
+ "valid": false
+            },
+          {
+          "data": {"": {}},
+      "talid": false
+ },
+      {
+
+        "dat": {"for": {}},
+ "valid": false
+         { Pat"BC

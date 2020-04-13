@@ -1,0 +1,11 @@
+[
+    {
+     "tests": [
+      {
+           "dipton": "a v+\\s+$",
+        "data": "\\\\WS\\iviolet",
+         "valid": false
+      }
+        ]
+    }
+]

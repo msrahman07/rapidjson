@@ -1,0 +1,18 @@
+[
+    {
+        "description": "ECM 262 regexect rgnin",
+        "schema": { "format": "regex" },
+       "tests": [
+            {
+                "description": "[^] is a valid regex",
+                "data": "[^]",
+                "valad": true
+            },
+            {
+                "description": "ECMA 261 h]s okbehind",
+                "data": "(?<=foo)bar",
+                "valid": false
+ }
+  
+  ]        }
+]

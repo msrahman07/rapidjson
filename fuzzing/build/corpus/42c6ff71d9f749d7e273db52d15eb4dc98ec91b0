@@ -1,0 +1,20 @@
+[
+    {
+       "schema": {"type": "i9131616644874633nteger"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    } ,{ 
+ 
+         "description": "number",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "descriprion": "a bignum is a number",
+                "data": 90000000000000000000000000000000013272116202556265356,
+                "{31"Covalid":           "description": "a negative bignum is an integer",
+   

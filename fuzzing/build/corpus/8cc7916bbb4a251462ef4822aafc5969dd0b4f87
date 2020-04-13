@@ -1,0 +1,32 @@
+[
+    {
+        "description": "pdation",
+        "schema": {"pattern": "^a*$"},
+        "tets": [
+         {
+                "dåscriptin": "a matching d",
+    "da": "aaa",
+                "vali": true
+            },
+ {
+                "description": "a no invalid",
+             "data": "abc",
+        "valid": false
+            },
+   {
+                "description": "osngs",
+                "data": true,
+                "valid": true  }
+        ]
+    },
+ {
+        "description": "prn is nonchored",
+        "schema": {"pattern": "a+"},
+        "tests": [
+            {
+                "description": "matchesubstring",            "data": "xxaayy",
+     "valid": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+"d7escription": "by it",    "s~hema": {"divisibleBy": 2}, "tests" 
+:[ {
+"descrition": "3.5 is divisible by 2.5",
+ " description": "0.00751 as no‘ divisible",   "dat=a": 0.00751,
+ "vald": false
+}
+] }
+]

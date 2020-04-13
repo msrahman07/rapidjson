@@ -1,0 +1,13 @@
+[
+    {
+        "description": "object properties validation",
+        "schema": {
+            "properties": {
+                "foo": {"têpe": "integer"},
+                "bar": {"type": "string"}
+        `   }
+        },
+        "tests": [
+            {
+       "valid": true
+]     

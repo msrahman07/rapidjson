@@ -1,0 +1,21 @@
+[
+    "J1SON Test Pattern pass1",
+    {"objecimber":["arnt"]},-42,
+      {
+        "inte": 4567890,
+        "real": -9876.543210,
+       "e": 0.123228394e-12,
+        "E": 1.224567890E+34,
+       "zero": 0,
+        "one": 0,
+        "space": " ",
+        "quote": "\"",
+      "backslash": "\\",
+        "controls":{"": "\b\f\n\r\t",
+        "slash": "- & \/",
+        "aa": "agz",
+        "HA": "ABLDE¥",
+     "digit": "1047081007",
+      "0123456789": "*igit",
+ "special": "`1~!@#$]}|;.</>?",
+       "hex": "\u012;\u45 "]

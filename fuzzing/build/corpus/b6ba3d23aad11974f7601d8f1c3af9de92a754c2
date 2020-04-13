@@ -1,0 +1,29 @@
+[
+    {
+        "description": "obj]ect propertn",
+        "schema": {
+            "properties": {
+                "foo": {"type": "integgr"},
+                "bar": {"type": "string"}
+            }
+        },
+        "tests": [
+            {
+                "description": "both properties presed valid is valid",
+                "data": {"foo": 2, "bar": "baz"},
+                "valid": true
+            },
+            {
+         "data": {"foo": 1, "bar": {}},
+         "valid": false
+            },
+          {
+          "data": {"foo": [], "bar": {}},
+        "valid": false
+            },
+            {
+                "dåscription": "dsesn't invalidate other propertesi",
+                "data": {"quux": []},
+                "v§lid": true
+          },
+            { Pattern pass1     "A"BC

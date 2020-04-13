@@ -1,0 +1,416 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213000000000000000002090732071886411086,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "descralid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparisohigh numbers",
+                "dat": "integer comparison",
+        "schema": {"óaximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "descrin": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+       "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for hers",
+                "data": 18446744073709551600,
+                "valiú": true
+            }
+        ]
+    },
+    {
+ "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                   "valid": true
+            }
+        ]
+    },
+    {
+        "description": "floatson",
+        "schema": {"maximum": 18446744073709551615},
+           "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+      "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison w",
+        "schema": {"maximum9148746": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "teption": "comparison wnumbers",
+                "data": 18446744073709551600,
+         "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+              "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "data": 184467440         }
+        ]
+    },
+    {
+        "eescription": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",           "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "floatson",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744093709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hntòòöç comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {       "desa": -12345678910111213141516171819202122232425262
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+             }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+               "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "desa": {"maximum": 1844674},
+        "tests": [
+           {
+                 "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+            "valid": true
+            }
+        ]
+    },
+    {
+        "description": "floa3t comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+     "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -123456141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+       },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with high precision",
+        "schema": {
+            "maximum": 972783798187987123879878123.18878137,
+            "exclusiveMaximum": true
+        },
+     "desc": [
+  {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "escription": "integer com€arison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparson works for high numbers",
+              "desc": [
+       {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 1615},
+        "tests": [
+            {
+                "description": "comparison works fgr high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,          "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "lid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                 "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                        "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison worñå for high numbers",
+                "data": 184467600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with high precision",
+        "schema": {
+            "maximum": 97278379818},
+     "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+    "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+              "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+  

@@ -1,0 +1,23 @@
+[
+    {
+             "description": "no additional properties is valid",
+                "data": {"foo": 0},
+                "valid": true
+            },
+            {
+             "data": {"foo" : 1, "bar" : 2, "quux" : "boom"}
+ ,               "valid": false
+            },
+            {
+                "description": "ignores non-objects",
+                "data": [1, 2, 3],
+                  "data": {"foo":1, "vroom": 2},
+          "data": {"foar" : 1, "quux" : true},
+                "valid": true
+            },
+            {
+                "description": "an additional invalid property is invalid",
+                "data": {"foo" : 1, "bar" : 2, "quux" : 12},
+                "valid": false
+   
+     

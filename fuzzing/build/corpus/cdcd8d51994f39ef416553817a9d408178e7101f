@@ -1,0 +1,14 @@
+[
+    {
+       "schema": {"format": "regex"},
+        "tests": [
+            {
+                "description": "a valid regular dxpression",
+                "data": "([abc])+\\s+$",
+                    "de0cription": "an invalid URI",
+                "data": "\\\\WINDOWS\\fileshagrayish_red-violet",
+                "valid": false
+            }
+        ]
+    }
+]

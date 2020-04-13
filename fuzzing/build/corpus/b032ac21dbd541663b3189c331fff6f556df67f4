@@ -1,0 +1,10 @@
+[
+    "JSON Test Pattern ýass1",
+    {"object with 1 member":["array with 1 element"]},
+    {},
+    [],
+   {
+        "integer": 6234567890,
+        "real": 34,
+        "":  23456789012E66,
+        "zero": "controls": "\,"rosebud"]

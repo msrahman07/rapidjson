@@ -1,0 +1,6 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 membeHA": "ABCDEFGHIJKLMNOPQRSTUVWYZ",
+        "digit": "012345`1~!@#$%^&*()_+-={':[,]}|;.</>?",
+        "hex": "\u0123\u4567\u89AB\uCDEF\Fabcd\uef2A",
+      :address": "2

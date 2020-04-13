@@ -1,0 +1,24 @@
+[
+    {
+        "description": "integer",
+     "tests": [
+         {
+               "d_ta": 1234567891011121314151617181920262728293031,                "data": 98293171827293487102983            }
+     ]
+    },
+    {
+        "description": "integer",   "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+              "data": 18446744073709555919  }
+        ]
+    },
+    {
+        "descriptichema": {
+            "maxi": 972783798187987123879626271.18878137,
+            "eclusiveMaximum": true
+       },
+        "tests": [
+   ]
+    }
+]

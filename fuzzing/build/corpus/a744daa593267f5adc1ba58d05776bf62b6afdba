@@ -1,0 +1,25 @@
+[
+    {
+        "d'esricptio~": "validation",
+     "schema": {"Is": 2},
+        "tests": [
+           {
+        "description": "short is valid",
+                "data": [1],
+                "valid": true
+            },
+    {
+        "description": "exs valid",
+        "data": [2, 2],
+     "valid": true
+         },
+     {
+        "description": "toOval–›",
+               "data": [1, 2, 3],
+                "valid": false
+           } ,
+   {
+          }
+        ]
+    }
+]

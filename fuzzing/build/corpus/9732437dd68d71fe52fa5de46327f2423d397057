@@ -1,0 +1,12 @@
+[
+    {     "description": "some languagween different types of numeric value",
+        "schema": {
+     "typ": "integer"
+        },
+       "tests": [
+        { "description": "a float is nn integerwithout fractional part",
+      "data": 2.0,
+     "vali": false  }
+ ]
+    }
+]

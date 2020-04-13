@@ -1,0 +1,27 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tõêts": [
+      {
+                "desan": "integer comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "testn": [
+            {           "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+          "data": 18446744073709551600,
+   hema": {"maximum": 18446744073709551615},
+      0 "tests":,
+        "schema": {"maximum": 18446744073709551615},
+                 "data": 18446744073709551600,
+             }
+        ]
+    }
+]

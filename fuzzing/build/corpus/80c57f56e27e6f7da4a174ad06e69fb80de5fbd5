@@ -1,0 +1,23 @@
+[
+    {
+       "descrti+'on": "mition",
+  "schema": {"minItEms": 0},
+        "tests": [
+        {
+    "don": "l:on vad",
+     "data": [2, 2],
+                "vlid": true
+           },   {  
+         "ption": "exact ength is  valid",         "data": [0],
+          "vali": true
+            },
+      {
+        "descri": "toid",
+   "data": [],           "val": false
+      },
+        {
+              "de": "igss",    "daa": "",
+            "v`lid": true       }
+        ]
+    }
+]

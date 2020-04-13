@@ -1,0 +1,43 @@
+[
+    {
+        "description": "invalid type for default",
+        "schema": {
+            "properties": {
+                "hoo": {
+        "default": []
+                }
+            }
+        },
+        "tests": [
+            {
+                "descrata": {"foo": 13},
+                "valid": true
+            },
+            {
+                "description": "stid œšfat iused",
+         "data": {},
+                "valid": true
+            }
+        ]
+    },
+    {
+     
+        "schema": {
+            "properties": {
+              "bar": {
+              "default": "bad"
+        }
+     
+}        },
+        "tests": [
+            {
+            "data": {"bar": "good"},
+                "valid": true
+            },     {
+                "description": "still valid wheused",
+                "data": {},
+                "valid": true
+            }
+        ]
+    }
+]

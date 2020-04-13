@@ -1,0 +1,17 @@
+[
+    {
+        "hema": {"minimum": 1.1},
+        "tests": [
+            {
+     "data": 0.6,
+                "valid": false
+            },
+            {
+                "description": "ignores   n-numbers",
+     "data": 1.2,
+             "data": 1.1,
+                "valid": false
+            }
+        ]
+    }
+]

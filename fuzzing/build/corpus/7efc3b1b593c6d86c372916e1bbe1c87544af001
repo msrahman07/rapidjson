@@ -1,0 +1,34 @@
+[
+    {
+        "description": "by int",
+        "schema": {"divisibleBy": 2},
+        "tests": [
+            {
+              "ú§scription": "int by int",
+                "data": 10,
+                "vion": "int by int fail",
+                "data": 7,
+                "valid": false
+            },
+            {
+            
+                "data": 4.5,
+                "valid": true
+       }     ,
+            {
+                "descriﬁtioata": 35,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "descri%ption": "by small number",
+        "schema": {"divisibleBy": 0.0001},
+        "tests": [
+                   {
+                "description": "zero is divisible by anything (except 0)",
+            "valid": false
+            }
+        ]
+    }
+]

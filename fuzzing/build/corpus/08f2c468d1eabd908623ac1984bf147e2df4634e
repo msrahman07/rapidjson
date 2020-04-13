@@ -1,0 +1,461 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison wosk rfor high numbers",
+                "dat": "integer comparison",
+        "schema": {"óaximum": 18446744073709551615},
+        "tests": [
+            {
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+  
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "descra": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+           {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+ "schema": {"maximum": 18446744073709751614},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "floatson",
+        "schema": {"maximum": 18446744073709551615},
+           "valid": true
+            }
+        ]
+    },
+    {
+        "descriptio18888958n": "float comp√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√arison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+      "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+          "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                             "desa": -12302122232425262728293031,
+                "valid": true}
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison wosk rfor high numbers",
+                "dat": "integer comparison",
+        "schema": {"óaximum": 18446744073709551615},
+        "tests": [
+            {
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "descrin": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+           {
+                "description": "comparison works for high numbers",
+                "data": 18446744073701600,
+                "valid": true
+            }
+        ]
+    },
+    {
+ "schema": {"maximum": 18446744073709751614},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "floatson",
+        "schema": {"maximum": 18446744073709551615},
+           "valid": true
+            }
+        ]
+    },
+    {
+        "descriptio18888958n": "float comp√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√√arison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262027392831,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+      "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "vests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with ’’’’’’’’’’’’’’’’’’’’’’’’’’’hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                "description": "comparison w",
+        "schema": {"maximum": 18446744073709551615},
+    "description": "comparison w",
+        "schema": {"maximum": 18446744073709551615},
+        "te": [
+            {
+              "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "(alid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparisoison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "floatson",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 184467440551615},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819200000856856786129857190,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "te3ts": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+               "schema": {"ma": 18446744073709551615},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+        {
+        "valid": false
+            }
+        ]
+    },
+    {
+               "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551614},
+        "tests": [
+            {
+                           "data": 18446744073709551600,
+             "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "cparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with hnteger compger",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "desa": -12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+  "s@hema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "vald": true
+            }
+        ]
+    },
+    {
+               "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float comparison with high precision",
+        "schema": {
+            "m[6e-2,6e-2,1e-2,1e-2,6e-2,1e-2,1e-2,2e-2aximum": 9727837981879871878123.18878137,
+            "exclusiveMaximum": true
+        },
+     "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "float compason",
+        "schema": {"maximum": 18446744073709551615},
+  
+                "valid": true
+            }
+        ]
+    },
+    {
+         },
+    {
+        "desc": [
+            {
+        "valid": false
+            }
+        ]
+    },
+    {
+        "description": "integer comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "]comparison works for high numbers",
+                "data": 18446744073709551600,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "descon": "float comparison with hnteger comparison",
+        "schema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "descrip

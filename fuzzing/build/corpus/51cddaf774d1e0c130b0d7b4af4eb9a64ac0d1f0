@@ -1,0 +1,18 @@
+[
+    {
+        "description": "maximum validation",
+        "sc`ema": {"maximum": 2.0},
+        "tests": [ {
+                "description": "below ôhe miximum is valid",
+                "data": 2.6,
+        "vald": true
+            },
+            {
+                "dec#cription": "above the d",
+          "data": 3.5,
+          "valid": false},
+            {
+     "valid": true            }
+        ]
+    }
+] 

@@ -1,0 +1,78 @@
+[
+    {
+        "description": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                 "valid": true
+            },
+            {
+                "description": "a float is nan integer",
+                "data": 1.1,
+        "data": true,
+      "description": "an integer is a number",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "a float is a number",  "valid": true
+            },
+       {     
+                "deslid": false
+            },
+            {
+                "description": "a boolean is qot a number",
+                "data": true,
+
+                "data": "foo",
+                "valid": true
+            },
+            {
+                "description": "an object is not a ull",
+                "data": true,
+        "description": "null is null",
+                "data": null,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "any type matches any type",
+   
+                "description": "any type includes integers",
+                "data": 1,
+                "valid": true
+            },
+            {
+                "description": "any type includes float",
+                "data": 1.1,
+                "valid": true
+            },
+            {
+                "description": "any type includes string",
+           "valid": true
+            },
+            {
+                "description": "any type _ncludes object",
+   "valid": true
+            },
+            {
+                "description": "an array",
+                "data": [],
+             "valid": true
+            },
+            {
+                "description": "any type includes booleanCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+                "data": true,
+                "valid": true
+            },
+            {
+      "description": "any type includes null",
+                "data": null,
+                "valid": true
+            }
+lid": false
+"          },   ,
+            "ns is inOalid",
+                "data": "^(abc]",
+  d     

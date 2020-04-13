@@ -1,0 +1,52 @@
+[
+    {
+        "description": "object properties validation",
+        "schema": {
+            "properties": {
+                "foo": {"type": "integer"},
+                "bar": {"type": "string"}
+            }
+        },
+        "tests": [
+            {
+                "description": "both properties present and valid is valid",
+                "data": {"foo": 1, "bar": "baz"},
+                "valid": true
+            },
+            {
+                "description": "one property invalid is invalid",
+                "data": {"foo": 1, "bar": {}},
+                "valid": false
+            },
+            {
+                "description": "both properties invalid is invalid",
+                "data": {"foo": [], "bar": {}},
+                "valid": false
+            },
+            {
+                "description": "doesn't invalidate other properties",
+                "data": {"quux": []},
+                "valid": true
+           },
+            {
+                "description": "patternProperty invalidates nonproperty",
+                "data": {"fxo": []},
+                "valid": false
+            },
+            {
+                "description": "additionalProperty ignores property",
+                "data": {"bar": []},
+                "valid": true
+            },
+            {
+                "description": "additionalPropertdata": {"quux": 3},
+                "valid": true
+            },
+            {
+                "description": "additionalProperty invalidates others",
+                "data": {"quux": "foo"},
+                "valid": false
+            }
+        ]
+    }
+]

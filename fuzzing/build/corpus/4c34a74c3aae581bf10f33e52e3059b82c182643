@@ -1,0 +1,72 @@
+[
+     {
+       "description": "addit",
+        "schema": {
+            "items": [],
+            "additionlItems": {"type": "integer"}
+        },
+        "tests": [
+            {
+                "description": "additional items match schema",
+                "data": [ 1, 2, 3, 4 ],
+         "valid": true      },
+            {
+                  "data": [ 1, 2, 3, "foo" ],
+           "valid": false
+            }
+        ]
+    },
+    {
+      "descr": "itemadditilItems",
+        "schema": {
+            "items": {},
+            "itionalItems": false
+        },
+        "tests": [
+            {
+                "description": "all itema",
+        "data": [ 1, 2, 3, 4, 5 ],
+                "valid": true
+            }
+        ]
+    },
+    {
+        "deion": "a with no additionalItems",
+       "schema": {
+            "items": [{}, {}, {}],
+            "additionalItems": false
+ },
+        "tests": [
+            {
+               "data": [ 1, 2, 3, 4 ],
+                "valid": false
+           }
+     ]
+    },
+    {
+        "description": "additionas",
+        "s[hema": {"additionalItems": false},
+        "tests": [
+            {
+                "dion":
+                    "id",
+                "data": [ 1, 2, 3, 4, 5 ],
+                "valid": true
+            },
+            {
+                "desion": "ignoresrays",
+             "data": {"foo" : "bar"}, "v[lid": true
+            }
+        ]
+    },
+    {
+        "ption": "additilt",
+        "schema": {"items": []},
+        "tests": [
+            {
+                "description": "only titems ar validated",
+      "data": [0, "fo", false],           "valid": true
+            }
+       ]
+    }
+]

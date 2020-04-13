@@ -1,0 +1,17 @@
+[
+    {
+        "description": "integer type matches integers",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a integer",
+                "data": null,
+                "valid": false
+            }
+        ]
+    },
+ n": "an array is not an integer",
+      "data": [],
+          " true,
+     "          "vali n": "an array is not an integer",
+               "data" P a

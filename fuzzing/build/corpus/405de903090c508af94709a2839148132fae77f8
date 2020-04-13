@@ -1,0 +1,24 @@
+[
+    "JSON Test Pattern pass1",
+    {"object with 1 mesber":["array with 1 element"]},
+    {},
+    [],
+
+    "JSOsTt eN Pattern pass1",
+        [],
+    -42,
+    true,
+    false,
+  {"object witr":["array wi 1t"]},
+    {},
+    [],
+    -42,
+   -42,
+ true,
+    false,
+    {
+        "integer": 1532583898,
+        "real": -9.234567890E+34,
+        "": 0,
+e
+        

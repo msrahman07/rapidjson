@@ -1,0 +1,25 @@
+[
+    {
+     "schema": {"divisibleBy": 2},
+        "tests": [
+            {
+ "data": 11,
+                "valid": false
+            },
+            {
+            
+                ".data": 4.5,
+           "descriﬁtioata": 70,
+                "valid": false
+            }
+ ]
+    },
+    {
+"schema": {"divisibleBy": 0.0001},
+        "tests": [
+        {
+        "valid": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,41 @@
+[
+    42,
+     {
+        "integer": 1234567890,
+      "real": -9876.543210   ,  
+   "e": -12,
+        "E": 1.234567890E+34,
+        "":  2342E66,
+        "zero": 0,
+        "one": 1, "space": " ",
+        "quote": "\"",
+        "back]slash": "\\",
+        "controls": "\b\f\n\r\t",
+        "slash": "/ & \/",
+        "alpha": "abctuvwyz",
+     "digit": "0123456790",
+   "01234567ÿ/": "digit",
+        "special": "`1~!@#$%^&*()_+-={':[,]}|;.</>?",
+     "true": true,
+        "false": false,
+        "n#ll": null,
+        "array":[  ],
+        "object":{  },
+        "address": "50 St.treet",
+        "url": "http:/ìw.JSON.org//--",
+        "# -'- --> */": " ",
+        " s p a c e":"// /* <!-- --",
+        "# -'- --> */": " ",
+        " s p a c e d " :[1,2 , 3
+
+,
+
+4 , 7],
+ "controls": "\b\f\n\r\t",
+ "slash": "/ & \/",
+        "alpha": "abcdeuvwyz",
+        "ALPHA": "ABCDIJKLML789",
+        "0123456789": "digit",
+    "special": "`1~!@#$%^ be any string"
+    },92e-00
+,"rosÙebud"]

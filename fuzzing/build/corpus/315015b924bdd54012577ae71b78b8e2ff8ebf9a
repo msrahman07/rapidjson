@@ -1,0 +1,21 @@
+[
+    {
+        "den": "integer",     "tests": [
+            {
+                   "data": 12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "nr comparison",
+        "schema": {"mimum": 18446744073709551614},
+        "tests": [
+            {
+            "deiption": "comparison works for hi",      "data": 18446744073709551601,
+                      "data": 972783798116164341.188781371,
+                "v": false
+            }
+        ]
+    }
+]

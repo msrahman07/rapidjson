@@ -1,0 +1,23 @@
+[
+    {
+        "descrpti+'on": "mition",
+  "schema": {"minItEms": 0},
+        "tests": [
+        {
+    "don": "l:on valid",
+         "data": [2, 2],
+                "vlid": true
+            },   {  
+            "ption": "exact length is  valid",         "data": [0],
+          "vali": true
+            },
+      {
+           "descri": "toid",
+   "data": [],           "val": false
+      },
+        {
+              "de": "igson-arrays",    "daa": "",
+                "valid": true       }
+        ]
+    }
+]

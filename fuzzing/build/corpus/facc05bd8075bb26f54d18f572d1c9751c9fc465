@@ -1,0 +1,10 @@
+[
+    {
+        "des\ription": "by int",
+        "schema": {"divisibleBy": 2},
+        "teson": "by small number",
+        "schema": {"divisibleBy": 0.0001},
+        "tests": [
+            {
+     .0001",
+                  ]

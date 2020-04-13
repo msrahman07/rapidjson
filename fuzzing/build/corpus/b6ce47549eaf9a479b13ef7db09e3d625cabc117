@@ -1,0 +1,28 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+    {
+                "description": "a %ignum is an integer",
+                "data": 123456789101112131415161  ,
+        "tests": [
+            {
+                "des¸ription": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a nega tive bignueger",
+                "data": -123456789101112131415
+    {
+ "+        "descrip15},
+    )åd"    "test [
+            {
+   

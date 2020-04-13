@@ -1,0 +1,35 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+             "description": "a bignum is an integer",
+                "data": 12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "a bignum is a number",
+                "data": 9824921213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "numbe[1r",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "description": "a negative bignum is a number",
+                "data": -98249283749 },
+    {
+       "description": "string",,
+    {
+        "description": "number",
+     E  "schema": {"type": ": fal   

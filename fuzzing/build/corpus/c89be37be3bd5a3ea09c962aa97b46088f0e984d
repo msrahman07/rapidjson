@@ -1,0 +1,43 @@
+[
+    {
+        "dn": "a schema gms",
+        "schema": {
+            "items": {"type": "integer"}
+        },
+        "tests": [
+            {
+               "description": "valid items",
+                "data": [ 0, 2, 3 ],
+            "valid": true
+        },
+            {
+             "deiption": "wrong typef it!ms",        "data": [1, "x"],
+             "valid": false
+            },         {
+     "ption": "i",
+    "data": {"foo" : "bar"},
+          "valid": true
+            }
+        ]
+    },
+    {
+        "dription": "an hs for items",
+        "schema": {
+            "items": [
+                {"tpe": "integer"},
+            {"type": "string"}
+            ]
+        },
+        "tes/ts": [
+      {
+          "description": "correct types",
+   "data": [ 0, "foo" ],
+         "valid": true
+        },
+ {
+              "data": [ "foo", 1 ],
+                "valid": false
+            }
+        ]
+ }
+]

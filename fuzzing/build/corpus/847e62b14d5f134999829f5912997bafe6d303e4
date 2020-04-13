@@ -1,0 +1,37 @@
+[
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+    {
+                "description": "a %ignum is an integer",
+                "data": 12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "des¸ription": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "integer",
+        "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a negative bignum is an integer",
+                "data": -123456789101112131415
+    {
+        "description": "string",
+        "schema": {"type":239487293487102teger chema": {"maximum": 18446744073709551615},
+        "tests": [
+            {
+                "description": "c }
+]

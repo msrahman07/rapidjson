@@ -1,0 +1,11 @@
+[
+    {
+       "descriptts": [
+            {
+                "description": "a float is not an integer even wit part",
+                "data": 0.0,
+             "valid": false
+            }
+        ]
+    }
+]

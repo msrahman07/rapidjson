@@ -1,0 +1,13 @@
+[
+    {
+       "schema": {"type": "i9131616644874633nteger"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 123456789101112131415161718192021222324252            }
+        ]
+    } ,{ 
+                "descriprion": "a bignum is a number",
+            "data": 90000000000000000000000000000000013272116202552728293031,
+                "valid": t:           "description": "a negative bignum is an integer",
+   

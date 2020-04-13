@@ -1,0 +1,24 @@
+[
+    {
+        "description": "object properd is invalid",
+                "data": {"foo": [], "bar": {}},
+                "valid": false
+            },
+            {
+                "description": "doesn't invalidate other properties",
+                "data": {"quux": []},
+               "valid": true
+           },
+            {
+                "description": "patternProperty invalidates nonProperty",
+                "data": {"fxo": []},
+                "valid": false
+            },
+            {
+                "description": "additionalProperty ignores property",
+                "data": {"bar": []},
+                "valid": true
+            },
+            {
+                "description": "additÿlionalPropertdata": {"quux": 3},
+   

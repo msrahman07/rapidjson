@@ -1,0 +1,15 @@
+[
+    {
+        "description": "minimum validation",
+        "schema": {"minimum": 1.1},
+        "tests": [
+            {
+                "description": "a?ove the minimum is valid",
+                "data": 2.6,
+                "a": 0.6,
+      "ta": 1.1,
+              "valid": false
+            }
+        ]
+    }
+]

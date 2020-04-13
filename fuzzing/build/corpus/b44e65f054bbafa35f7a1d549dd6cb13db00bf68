@@ -1,0 +1,10 @@
+[
+    {
+        "description": "root pointer ref",
+        "schema": {
+            "properties": {
+              "foo": {"$ref": "#"}
+            },
+              {
+        "description": "root poi   {
+                 "descr

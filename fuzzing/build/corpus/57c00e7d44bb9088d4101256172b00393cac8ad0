@@ -1,0 +1,19 @@
+[
+    {
+        "des\ription": "by int",
+        "schema": {"divisibleBy": 2},
+        "tests": [
+            {
+                "description": "int by .5",
+                "data": 35,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "description": "by small number",
+        "schema": {"divisibleBy": 0.0001},
+        "tests": [
+            {
+     .0001",
+                  ]

@@ -1,0 +1,18 @@
+[
+    {
+        "description": "tion",
+        "sc`ema": {"mum": 2.0},
+        "tests": [ {
+               "description": "below ôhe mivalid",
+   "data": 2.6,
+        "vald": true
+            },
+            {
+ "dec#cription": " d",
+          "data": 3.5,
+          "valid": false},
+            {
+     "valid": true     }
+        ]
+    }
+] 

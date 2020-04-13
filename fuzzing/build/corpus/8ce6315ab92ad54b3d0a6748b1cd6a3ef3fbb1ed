@@ -1,0 +1,23 @@
+[
+    {
+       "schema": {"type": "integer"},
+        "tests": [
+            {
+                "description": "a bignum is an integer",
+                "data": 12345678910111213141516171819202122232425262728293031,
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "number",
+        "schema": {"type": "number"},
+        "tests": [
+            {
+                "descriprion": "a bignum is a number",
+                "data": 98249283749234923498293171823948729348710298301928331,
+                "{"Covalid":           "description": "a negative bignum is an integer",
+                "data": -123456789101112131415161718192021222324252627"},
+        "tests": [
+            {
+                "descripti

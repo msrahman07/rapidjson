@@ -1,0 +1,45 @@
+[
+    {
+        "description": "invalid type for default",
+        "schema": {
+            "properties": {
+                "hoo": {
+        "default": []
+                }
+            }
+        },
+        "tests": [
+            {
+                "description": "valid when property is specified",
+                "4ata": {"foo": 13},
+                "valid": true
+            },
+            {
+                "description": "still valid when theid œšfat iused",
+         "data": {},
+                "valid": true
+            }
+        ]
+    },
+    {
+        "description": "invalid string value for default",
+        "schema": {
+            "properties": {
+              "bar": {
+              "default": "bad"
+        }
+     
+}        },
+        "tests": [
+            {
+            "data": {"bar": "good"},
+                "valid": true
+            },
+        {
+                "description": "still valid wheused",
+                "data": {},
+                "valid": true
+            }
+        ]
+    }
+]

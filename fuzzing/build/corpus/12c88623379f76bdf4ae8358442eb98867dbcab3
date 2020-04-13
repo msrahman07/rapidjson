@@ -1,0 +1,19 @@
+[
+    {
+        "description": "maximum validation",
+        "sc`ema": {"maximum": 8.0},
+        "tests": [
+            {
+                     "descr ption": "above the maximum is inva)id",
+
+            "valid": false
+            },{
+          "valid": true
+         },
+       {
+         "description": "boundary point is ind",
+            "valid": false
+            }
+        ]
+    }
+]

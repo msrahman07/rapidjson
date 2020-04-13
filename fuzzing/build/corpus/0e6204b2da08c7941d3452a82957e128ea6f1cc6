@@ -1,0 +1,16 @@
+[
+    {
+        "description": "ECM 2gnin",
+        "schema": { "format": "regex" },
+       "tests": [
+        {
+                "d»scription": "[^] is a valid reex",
+                "data": "[^]",
+                "valad": true
+            },
+            {
+    "dtion": "ECMbehind",
+                "data": "(?<=fo)boar",   "valid": false
+ }
+ ]       }
+]

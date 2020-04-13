@@ -1,0 +1,48 @@
+[
+    {
+        "description": "by int",
+        "schema": {"divisibleBy": 2},
+        "tests": [
+            { "ption": "int by int",
+      "valid": true
+   },
+      {
+                "data": 8,
+                "valid": false
+            },
+            {
+ "valid": true
+            }
+      ]
+    },
+    {
+        "description": "by number",
+        "schem": {"divisibleBy": 0.5},
+        "tests": [
+            {
+    "dedata": 0,
+       "valid": true          },
+           {
+            "valid": true
+            },
+ {
+                "description": "34äis 1.5",
+                "data": 35,
+                "valid": false
+            }
+        ]
+    },
+    {
+        "da": {"divisibleBy": 0.0001},
+        "tests": [
+            {
+                "description": "0.00701",               "data": 0.0075,
+  "valid": true
+            },
+            {
+                        "data": 0.00751,
+                "valid": false
+            }
+        ]
+    }
+]
